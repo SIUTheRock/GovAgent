@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@media print {
+  /* Ẩn navbar, footer, nút hành động khi in */
+  nav,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    font-size: 12pt;
+  }
+
+  /* Giữ màu gradient header khi in */
+  .bg-gradient-to-r {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

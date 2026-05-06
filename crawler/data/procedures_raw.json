@@ -1,0 +1,698 @@
+[
+  {
+    "code": "1.001193",
+    "name": "Đăng ký khai sinh",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "Ngay trong ngày làm việc (hoặc ngay trong buổi tiếp nhận hồ sơ)",
+    "fee": "Không thu phí",
+    "requirements": "Công dân Việt Nam; Trẻ em sinh ra tại Việt Nam",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Bộ phận tiếp nhận và trả kết quả UBND phường/xã\nBước 2: Công chức hộ tịch kiểm tra hồ sơ\nBước 3: Nếu hồ sơ đủ điều kiện, đăng ký và cấp Giấy khai sinh",
+    "required_documents": "1. Tờ khai đăng ký khai sinh (theo mẫu)\n2. Giấy chứng sinh (bản gốc)\n3. Chứng minh nhân dân/Căn cước công dân của cha, mẹ\n4. Sổ hộ khẩu (nếu có)",
+    "result": "Giấy khai sinh",
+    "legal_basis": "Luật Hộ tịch 2014; Nghị định 123/2015/NĐ-CP; Thông tư 04/2020/TT-BTP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.001193",
+    "raw_content": "Đăng ký khai sinh là thủ tục hành chính bắt buộc trong thời hạn 60 ngày kể từ ngày sinh. Cha hoặc mẹ có trách nhiệm đi đăng ký khai sinh cho con. Nếu cha, mẹ không thể đến, thì ông hoặc bà hoặc người thân thích khác đi đăng ký. Thủ tục này hoàn toàn miễn phí và được thực hiện tại UBND cấp xã nơi cư trú của người mẹ hoặc nơi cư trú của người cha.",
+    "form_templates": [
+      {
+        "name": "Mẫu B23.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fd11c17112e15ce"
+      }
+    ]
+  },
+  {
+    "code": "1.000894",
+    "name": "Đăng ký kết hôn",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "05 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi; Không vi phạm các trường hợp cấm kết hôn; Tự nguyện đăng ký kết hôn",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Bộ phận tiếp nhận UBND cấp xã\nBước 2: Công chức hộ tịch kiểm tra, xác minh\nBước 3: Tổ chức lễ đăng ký kết hôn, cấp Giấy chứng nhận kết hôn",
+    "required_documents": "1. Tờ khai đăng ký kết hôn (theo mẫu, có xác nhận của UBND nơi cư trú)\n2. Giấy xác nhận tình trạng hôn nhân (nếu không cùng nơi cư trú)\n3. CMND/CCCD/Hộ chiếu của hai bên",
+    "result": "Giấy chứng nhận kết hôn",
+    "legal_basis": "Luật Hôn nhân và Gia đình 2014; Luật Hộ tịch 2014; Nghị định 123/2015/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.000894",
+    "raw_content": "Đăng ký kết hôn là thủ tục pháp lý để công nhận quan hệ hôn nhân giữa hai người. Hai bên nam nữ phải trực tiếp có mặt tại UBND cấp xã để đăng ký. Thủ tục này được thực hiện tại UBND cấp xã nơi cư trú của một trong hai bên. Không thu phí đăng ký kết hôn.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004734"
+      }
+    ]
+  },
+  {
+    "code": "1.001057",
+    "name": "Cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+    "category": "Đất đai - Nhà ở",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Văn phòng đăng ký đất đai TP.HCM",
+    "processing_time": "30 ngày làm việc; 40 ngày làm việc đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn",
+    "fee": "Theo quy định của HĐND tỉnh/thành phố",
+    "requirements": "Người sử dụng đất, chủ sở hữu tài sản gắn liền với đất; Có đủ điều kiện được cấp Giấy chứng nhận theo quy định của Luật Đất đai",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Bộ phận Một cửa UBND quận/huyện hoặc Văn phòng ĐKQSD đất\nBước 2: Thẩm định hồ sơ, xác minh thực địa\nBước 3: Trình ký, cấp Giấy chứng nhận\nBước 4: Trả kết quả",
+    "required_documents": "1. Đơn đăng ký, cấp Giấy chứng nhận (Mẫu 04a/ĐK)\n2. Một trong các giấy tờ về quyền sử dụng đất theo Điều 100 Luật Đất đai\n3. Chứng minh nhân dân/CCCD\n4. Sơ đồ thửa đất (nếu chưa có trong hồ sơ địa chính)\n5. Giấy tờ liên quan đến tài sản gắn liền với đất (nếu có)",
+    "result": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất (Sổ đỏ/Sổ hồng)",
+    "legal_basis": "Luật Đất đai 2013; Nghị định 43/2014/NĐ-CP; Nghị định 01/2017/NĐ-CP; Thông tư 23/2014/TT-BTNMT",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.001057",
+    "raw_content": "Cấp Giấy chứng nhận quyền sử dụng đất (Sổ đỏ/Sổ hồng) là thủ tục xác nhận quyền sử dụng đất và quyền sở hữu nhà ở của công dân. Hồ sơ nộp tại UBND quận/huyện hoặc Văn phòng đăng ký đất đai. Thời gian xử lý tối đa 30 ngày làm việc.",
+    "form_templates": [
+      {
+        "name": "93-Mẫu HK02-Phiếu báo thay đổi hộ khẩu, nhân khẩu.doc",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fecdc7d7a9a616d"
+      }
+    ]
+  },
+  {
+    "code": "1.004222",
+    "name": "Đăng ký thường trú",
+    "category": "Cư trú",
+    "level": "Cấp xã",
+    "implementing_agency": "Công an phường/xã/thị trấn",
+    "processing_time": "07 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Công dân Việt Nam; Có chỗ ở hợp pháp; Đủ điều kiện đăng ký thường trú theo Luật Cư trú",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Công an cấp xã\nBước 2: Công an kiểm tra hồ sơ và điều kiện đăng ký\nBước 3: Cập nhật thông tin vào Cơ sở dữ liệu quốc gia về dân cư",
+    "required_documents": "1. Phiếu báo thay đổi hộ khẩu, nhân khẩu (HK01)\n2. Giấy tờ chứng minh chỗ ở hợp pháp:\n   - Giấy chứng nhận quyền sở hữu nhà ở hoặc\n   - Hợp đồng thuê nhà (còn hạn, có công chứng) hoặc\n   - Giấy xác nhận cho ở nhờ của chủ hộ\n3. CMND/CCCD",
+    "result": "Được cập nhật thường trú vào Cơ sở dữ liệu quốc gia về dân cư",
+    "legal_basis": "Luật Cư trú 2020; Thông tư 56/2021/TT-BCA",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004222",
+    "raw_content": "Đăng ký thường trú là việc công dân đăng ký nơi thường xuyên sinh sống. Từ năm 2021, Sổ hộ khẩu giấy không còn giá trị, việc quản lý cư trú được thực hiện qua Cơ sở dữ liệu quốc gia về dân cư. Điều kiện đăng ký thường trú: có chỗ ở hợp pháp và đã đăng ký tạm trú tại chỗ ở đó từ 1 năm trở lên (đối với TP trực thuộc TW).",
+    "form_templates": [
+      {
+        "name": "Mẫu số 01 (1).docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fda16b1cfaa0e7c"
+      }
+    ]
+  },
+  {
+    "code": "3.000346",
+    "name": "Cấp Giấy phép lái xe",
+    "category": "Giao thông - Vận tải",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Sở Giao thông Vận tải TP.HCM",
+    "processing_time": "05 ngày làm việc kể từ ngày thi đạt",
+    "fee": "135.000 đồng",
+    "requirements": "Đủ độ tuổi theo từng hạng GPLX; Đủ sức khỏe; Qua sát hạch lý thuyết và thực hành",
+    "procedure_steps": "Bước 1: Đăng ký học và thi tại cơ sở đào tạo lái xe được cấp phép\nBước 2: Thi sát hạch tại Trung tâm sát hạch lái xe\nBước 3: Nộp hồ sơ đề nghị cấp GPLX\nBước 4: Nhận GPLX",
+    "required_documents": "1. Đơn đề nghị cấp GPLX\n2. CMND/CCCD (bản sao)\n3. Giấy chứng nhận sức khỏe do cơ sở y tế cấp\n4. Ảnh 3x4 (06 ảnh)\n5. Chứng chỉ học lái xe",
+    "result": "Giấy phép lái xe",
+    "legal_basis": "Luật Giao thông đường bộ 2008; Thông tư 12/2017/TT-BGTVT",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=3.000346",
+    "raw_content": "Giấy phép lái xe (GPLX) là tài liệu bắt buộc khi điều khiển phương tiện cơ giới đường bộ. Hạng A1: xe máy đến 175cc; Hạng B1: ô tô không kinh doanh vận tải; Hạng B2: ô tô kinh doanh vận tải. Thời hạn GPLX hạng B1 không thời hạn, B2 và các hạng khác 5-10 năm.",
+    "form_templates": [
+      {
+        "name": "Phu luc 1 c_ Noi dung van kien Chương trinh sd vien tro PCP.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe46109c42bceeb"
+      }
+    ]
+  },
+  {
+    "code": "1.013225",
+    "name": "Cấp Giấy phép xây dựng nhà ở riêng lẻ tại đô thị",
+    "category": "Xây dựng",
+    "level": "Cấp huyện",
+    "implementing_agency": "UBND quận/huyện TP.HCM",
+    "processing_time": "15 ngày làm việc",
+    "fee": "Theo quy định của TP.HCM",
+    "requirements": "Công trình xây dựng phải phù hợp quy hoạch; Chủ đầu tư có quyền sử dụng đất hợp pháp",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại UBND quận/huyện (bộ phận một cửa)\nBước 2: Thẩm định hồ sơ, kiểm tra thực địa\nBước 3: Trình ký, cấp Giấy phép xây dựng\nBước 4: Trả kết quả",
+    "required_documents": "1. Đơn đề nghị cấp GPXD\n2. Giấy tờ chứng minh quyền sử dụng đất\n3. Bản vẽ thiết kế (03 bộ)\n4. Bản vẽ hiện trạng khu đất\n5. Ảnh chụp hiện trạng công trình liền kề",
+    "result": "Giấy phép xây dựng",
+    "legal_basis": "Luật Xây dựng 2014 (sửa đổi 2020); Nghị định 15/2021/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.013225",
+    "raw_content": "Giấy phép xây dựng là văn bản pháp lý do cơ quan nhà nước có thẩm quyền cấp cho chủ đầu tư. Phải xin phép xây dựng trước khi khởi công xây dựng, sửa chữa, cải tạo công trình. Miễn phép với nhà ở riêng lẻ ở nông thôn thuộc khu vực không có quy hoạch đô thị.",
+    "form_templates": [
+      {
+        "name": "Mẫu Tờ khai cấp Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện thuyền viên hàng hải.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe44ec265f2710a"
+      },
+      {
+        "name": "Mẫu Báo cáo thuyết minh các điều kiện bảo đảm hoạt động đào tạo, huấn luyện thuyền viên hàng hải.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fdc0f98d8549912"
+      }
+    ]
+  },
+  {
+    "code": "1.001612",
+    "name": "Đăng ký kinh doanh hộ cá thể",
+    "category": "Doanh nghiệp",
+    "level": "Cấp huyện",
+    "implementing_agency": "Phòng Tài chính - Kế hoạch quận/huyện TP.HCM",
+    "processing_time": "03 ngày làm việc",
+    "fee": "100.000 đồng/lần cấp",
+    "requirements": "Cá nhân là công dân Việt Nam từ đủ 18 tuổi; Không thuộc diện bị cấm kinh doanh",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Phòng Tài chính - Kế hoạch quận/huyện\nBước 2: Kiểm tra hồ sơ\nBước 3: Cấp Giấy chứng nhận đăng ký hộ kinh doanh",
+    "required_documents": "1. Giấy đề nghị đăng ký hộ kinh doanh\n2. CMND/CCCD/Hộ chiếu (bản sao có chứng thực)\n3. Văn bản ủy quyền (nếu ủy quyền)\n4. Hợp đồng thuê địa điểm kinh doanh hoặc giấy tờ về địa điểm kinh doanh",
+    "result": "Giấy chứng nhận đăng ký hộ kinh doanh",
+    "legal_basis": "Nghị định 01/2021/NĐ-CP; Thông tư 01/2021/TT-BKHĐT",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.001612",
+    "raw_content": "Hộ kinh doanh là hình thức kinh doanh phổ biến nhất tại Việt Nam. Một cá nhân hoặc một hộ gia đình đăng ký kinh doanh. Không được mở chi nhánh, không phát hành chứng khoán. Hộ kinh doanh nộp thuế khoán hoặc thuế theo thực tế.",
+    "form_templates": [
+      {
+        "name": "DKchidinhgiahanchidinh.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fc135b0b86a5bc8"
+      }
+    ]
+  },
+  {
+    "code": "2.000635",
+    "name": "Cấp bản sao trích lục hộ tịch",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "Ngay trong ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Người có yêu cầu cấp bản sao trích lục hộ tịch",
+    "procedure_steps": "Bước 1: Xuất trình CMND/CCCD và nêu yêu cầu\nBước 2: Công chức hộ tịch kiểm tra sổ đăng ký\nBước 3: Cấp bản sao trích lục",
+    "required_documents": "1. CMND/CCCD/Hộ chiếu\n2. Giấy tờ liên quan (nếu yêu cầu trích lục của người khác thì cần giấy ủy quyền)",
+    "result": "Bản sao trích lục đăng ký hộ tịch",
+    "legal_basis": "Luật Hộ tịch 2014; Nghị định 123/2015/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=2.000635",
+    "raw_content": "Bản sao trích lục hộ tịch là văn bản do cơ quan đăng ký hộ tịch cấp. Bao gồm: trích lục khai sinh, trích lục kết hôn, trích lục khai tử. Được dùng thay thế bản chính trong nhiều trường hợp theo quy định pháp luật.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.001064"
+      }
+    ]
+  },
+  {
+    "code": "1.004873",
+    "name": "Xác nhận tình trạng hôn nhân",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "03 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Người đang cư trú tại địa phương; Chưa đăng ký kết hôn hoặc đã ly hôn/góa",
+    "procedure_steps": "Bước 1: Nộp tờ khai xác nhận tình trạng hôn nhân\nBước 2: Công chức hộ tịch xác minh thông tin\nBước 3: Cấp giấy xác nhận",
+    "required_documents": "1. Tờ khai xác nhận tình trạng hôn nhân (theo mẫu)\n2. CMND/CCCD\n3. Sổ hộ khẩu hoặc giấy tờ chứng minh cư trú",
+    "result": "Giấy xác nhận tình trạng hôn nhân",
+    "legal_basis": "Luật Hộ tịch 2014; Nghị định 123/2015/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004873",
+    "raw_content": "Giấy xác nhận tình trạng hôn nhân dùng để chứng minh người đó hiện đang độc thân (chưa kết hôn, hoặc đã ly hôn, hoặc vợ/chồng đã mất). Thường cần khi đăng ký kết hôn ở nơi không phải nơi thường trú, hoặc khi kết hôn với người nước ngoài.",
+    "form_templates": [
+      {
+        "name": "mẫu 13-MST.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe592e5fdb1a34c"
+      }
+    ]
+  },
+  {
+    "code": "2.002400",
+    "name": "Cấp giấy khám sức khỏe",
+    "category": "Y tế",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Các cơ sở khám chữa bệnh được cấp phép tại TP.HCM",
+    "processing_time": "Trong ngày",
+    "fee": "Theo quy định của cơ sở y tế",
+    "requirements": "Người có nhu cầu xác nhận sức khỏe (thi bằng lái, xin việc, xuất cảnh...)",
+    "procedure_steps": "Bước 1: Đăng ký khám tại cơ sở y tế\nBước 2: Thực hiện các bài kiểm tra sức khỏe theo yêu cầu\nBước 3: Bác sĩ kết luận và cấp giấy",
+    "required_documents": "1. CMND/CCCD\n2. Ảnh 4x6 (02 ảnh)\n3. Đơn đề nghị cấp giấy khám sức khỏe (nếu cơ sở y tế yêu cầu)",
+    "result": "Giấy chứng nhận sức khỏe",
+    "legal_basis": "Thông tư 14/2013/TT-BYT",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=2.002400",
+    "raw_content": "Giấy khám sức khỏe là tài liệu y tế xác nhận tình trạng sức khỏe của một người. Thường cần trong các trường hợp: xin việc làm, đăng ký học thi bằng lái xe, xuất khẩu lao động, xuất cảnh, nhập học. Có giá trị trong vòng 12 tháng kể từ ngày cấp.",
+    "form_templates": [
+      {
+        "name": "Mẫu ban hành kèm theo Nghị định số 130-2020-NĐ-CP.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fd2c17784ffbec4"
+      }
+    ]
+  },
+  {
+    "code": "1.000656",
+    "name": "Đăng ký khai tử",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "Ngay trong ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Người thân, đại diện cơ quan, tổ chức có trách nhiệm đăng ký trong vòng 15 ngày kể từ ngày chết",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại UBND phường/xã nơi người chết cư trú hoặc nơi xảy ra sự kiện chết\nBước 2: Công chức hộ tịch kiểm tra, xác minh\nBước 3: Cấp Giấy chứng tử",
+    "required_documents": "1. Tờ khai đăng ký khai tử (theo mẫu)\n2. Giấy báo tử hoặc văn bản xác nhận của cơ sở y tế, công an\n3. CMND/CCCD của người đi đăng ký\n4. Sổ hộ khẩu của người chết (nếu có)",
+    "result": "Giấy chứng tử",
+    "legal_basis": "Luật Hộ tịch 2014; Nghị định 123/2015/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.000656",
+    "raw_content": "Đăng ký khai tử là thủ tục bắt buộc để ghi nhận sự kiện chết vào sổ hộ tịch. Phải thực hiện trong vòng 15 ngày kể từ ngày người chết qua đời. Người đi đăng ký có thể là vợ, chồng, cha, mẹ, con hoặc người thân thích. Hoàn toàn miễn phí.",
+    "form_templates": [
+      {
+        "name": "MuNCNLQG01.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fcaaa9166bb8514"
+      },
+      {
+        "name": "MuNCNLQG02.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fed925b5530f58c"
+      }
+    ]
+  },
+  {
+    "code": "1.004194",
+    "name": "Đăng ký tạm trú",
+    "category": "Cư trú",
+    "level": "Cấp xã",
+    "implementing_agency": "Công an phường/xã/thị trấn",
+    "processing_time": "02 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Người không thuộc diện đăng ký thường trú nhưng cư trú tại địa điểm đó trên 30 ngày",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Công an phường/xã\nBước 2: Cán bộ Công an kiểm tra thực tế\nBước 3: Cập nhật dữ liệu và cấp xác nhận",
+    "required_documents": "1. Phiếu báo thay đổi hộ khẩu, nhân khẩu (CT01)\n2. CMND/CCCD\n3. Giấy tờ chứng minh chỗ ở (hợp đồng thuê nhà, xác nhận của chủ nhà...)",
+    "result": "Xác nhận đăng ký tạm trú; Cập nhật trong cơ sở dữ liệu quốc gia về dân cư",
+    "legal_basis": "Luật Cư trú 2020; Nghị định 62/2021/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004194",
+    "raw_content": "Đăng ký tạm trú áp dụng cho người đến ở tại địa điểm không phải nơi thường trú quá 30 ngày. Ví dụ: người thuê nhà, sinh viên, người đi làm xa nhà... Thực hiện tại Công an phường/xã nơi tạm trú. Miễn phí.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.003306"
+      }
+    ]
+  },
+  {
+    "code": "1.003311",
+    "name": "Tách hộ khẩu (tách hộ)",
+    "category": "Cư trú",
+    "level": "Cấp xã",
+    "implementing_agency": "Công an phường/xã/thị trấn",
+    "processing_time": "07 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Đủ điều kiện tách hộ theo quy định; Người xin tách hộ có chỗ ở hợp lệ trong cùng địa chỉ hoặc địa chỉ mới",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Công an cấp xã\nBước 2: Kiểm tra, xác minh điều kiện\nBước 3: Cập nhật thông tin vào cơ sở dữ liệu quốc gia về dân cư",
+    "required_documents": "1. Phiếu báo thay đổi hộ khẩu nhân khẩu (CT01)\n2. CMND/CCCD\n3. Giấy tờ chứng minh chỗ ở mới (nếu chuyển địa chỉ)",
+    "result": "Tách hộ thành công; Cập nhật cơ sở dữ liệu quốc gia về dân cư",
+    "legal_basis": "Luật Cư trú 2020; Nghị định 62/2021/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.003311",
+    "raw_content": "Tách hộ khẩu là thủ tục lập hộ mới tách ra từ hộ cũ. Thường dùng khi con cái ra riêng, mua nhà mới. Thực hiện tại Công an phường/xã. Từ 2021, sổ hộ khẩu không còn giá trị sử dụng, thông tin được quản lý trên hệ thống điện tử.",
+    "form_templates": [
+      {
+        "name": "ND 109_2016_mau 06_Phu luc 1.doc",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe7dab18d2d1d50"
+      }
+    ]
+  },
+  {
+    "code": "1.001123",
+    "name": "Chuyển mục đích sử dụng đất",
+    "category": "Đất đai - Nhà ở",
+    "level": "Cấp huyện",
+    "implementing_agency": "UBND quận/huyện (dưới 0,5ha); UBND TP.HCM (từ 0,5ha trở lên)",
+    "processing_time": "15 ngày làm việc (cấp huyện); 25 ngày làm việc (cấp tỉnh)",
+    "fee": "Tiền sử dụng đất theo quy định; Phí thẩm định hồ sơ",
+    "requirements": "Người có đất đủ điều kiện chuyển mục đích; Phù hợp quy hoạch và kế hoạch sử dụng đất đã được duyệt",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại UBND quận/huyện\nBước 2: Thẩm định điều kiện chuyển mục đích\nBước 3: Xác định và thu nghĩa vụ tài chính\nBước 4: Cấp Giấy chứng nhận mới",
+    "required_documents": "1. Đơn xin phép chuyển mục đích sử dụng đất (theo mẫu)\n2. Giấy chứng nhận QSD đất (Sổ đỏ/Sổ hồng) bản gốc\n3. Bản đồ thửa đất\n4. CMND/CCCD (bản sao)",
+    "result": "Quyết định cho phép chuyển mục đích sử dụng đất; Giấy chứng nhận QSD đất cập nhật mới",
+    "legal_basis": "Luật Đất đai 2013; Nghị định 43/2014/NĐ-CP; Thông tư 30/2014/TT-BTNMT",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.001123",
+    "raw_content": "Chuyển mục đích sử dụng đất là thủ tục chuyển từ loại đất này sang loại đất khác (ví dụ: đất nông nghiệp sang đất ở). Phải được cơ quan Nhà nước có thẩm quyền cho phép và nộp tiền sử dụng đất theo quy định.",
+    "form_templates": [
+      {
+        "name": "Mẫu số 01.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fee7f883bba2076"
+      }
+    ]
+  },
+  {
+    "code": "1.001125",
+    "name": "Đăng ký sang tên (chuyển nhượng quyền sử dụng đất)",
+    "category": "Đất đai - Nhà ở",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Văn phòng đăng ký đất đai TP.HCM",
+    "processing_time": "10 ngày làm việc",
+    "fee": "Lệ phí trước bạ 0,5% giá trị; Phí thẩm định hồ sơ theo quy định",
+    "requirements": "Hợp đồng chuyển nhượng đã được công chứng; Bên bán đã có Giấy chứng nhận QSD đất",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Văn phòng ĐKQSD đất hoặc UBND quận/huyện\nBước 2: Kiểm tra, thẩm định hồ sơ\nBước 3: Xác định và thu nghĩa vụ tài chính (lệ phí trước bạ)\nBước 4: Cấp Giấy chứng nhận cho người mua",
+    "required_documents": "1. Tờ khai đăng ký biến động đất đai (theo mẫu)\n2. Hợp đồng chuyển nhượng đã công chứng\n3. Giấy chứng nhận QSD đất bản gốc\n4. CMND/CCCD của cả hai bên\n5. Chứng từ nộp thuế thu nhập cá nhân (2%)",
+    "result": "Giấy chứng nhận QSD đất mang tên người mua",
+    "legal_basis": "Luật Đất đai 2013; Nghị định 43/2014/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.001125",
+    "raw_content": "Khi mua bán nhà đất, sau khi ký hợp đồng công chứng phải làm thủ tục sang tên (đăng ký biến động). Bên bán phải nộp thuế TNCN 2%. Bên mua nộp lệ phí trước bạ 0,5%. Thời gian tối đa 10 ngày làm việc.",
+    "form_templates": [
+      {
+        "name": "Mẫu 03 Giấy đề nghị thay đổi nơi đk tập sự.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fea35dbf6d41ad8"
+      }
+    ]
+  },
+  {
+    "code": "1.013226",
+    "name": "Điều chỉnh giấy phép xây dựng",
+    "category": "Xây dựng",
+    "level": "Cấp huyện",
+    "implementing_agency": "Phòng Quản lý đô thị quận/huyện",
+    "processing_time": "10 ngày làm việc",
+    "fee": "Theo quy định của TP.HCM (thấp hơn phí cấp mới)",
+    "requirements": "Đã có Giấy phép xây dựng; Cần thay đổi thiết kế, quy mô công trình so với giấy phép gốc",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại UBND quận/huyện\nBước 2: Thẩm định sự thay đổi so với GPXD gốc\nBước 3: Cấp GPXD điều chỉnh",
+    "required_documents": "1. Đơn đề nghị điều chỉnh GPXD\n2. Giấy phép xây dựng đã cấp (bản gốc)\n3. Bản vẽ thiết kế điều chỉnh\n4. Giải trình lý do điều chỉnh",
+    "result": "Giấy phép xây dựng điều chỉnh",
+    "legal_basis": "Luật Xây dựng 2014 (sửa đổi 2020); Nghị định 15/2021/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.013226",
+    "raw_content": "Khi muốn thay đổi thiết kế, diện tích, số tầng so với GPXD đã cấp, cần làm thủ tục điều chỉnh GPXD. Không được tự ý xây khác với GPXD, sẽ bị xử phạt vi phạm hành chính.",
+    "form_templates": [
+      {
+        "name": "Mẫu Tờ khai cấp Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện thuyền viên hàng hải.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe44ec265f2710a"
+      },
+      {
+        "name": "Mẫu Báo cáo thuyết minh các điều kiện bảo đảm hoạt động đào tạo, huấn luyện thuyền viên hàng hải.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fdc0f98d8549912"
+      }
+    ]
+  },
+  {
+    "code": "2.000720",
+    "name": "Thay đổi nội dung đăng ký hộ kinh doanh",
+    "category": "Doanh nghiệp",
+    "level": "Cấp huyện",
+    "implementing_agency": "Phòng Tài chính - Kế hoạch quận/huyện TP.HCM",
+    "processing_time": "03 ngày làm việc",
+    "fee": "50.000 đồng",
+    "requirements": "Hộ kinh doanh đã được cấp Giấy chứng nhận đăng ký; Có sự thay đổi về ngành nghề, địa điểm, vốn, chủ hộ",
+    "procedure_steps": "Bước 1: Nộp thông báo thay đổi tại Phòng TC-KH\nBước 2: Kiểm tra, xét duyệt\nBước 3: Cấp Giấy chứng nhận đăng ký hộ kinh doanh mới",
+    "required_documents": "1. Thông báo thay đổi nội dung đăng ký hộ kinh doanh (theo mẫu)\n2. Giấy chứng nhận đăng ký hộ kinh doanh (bản gốc)\n3. CMND/CCCD của chủ hộ kinh doanh",
+    "result": "Giấy chứng nhận đăng ký hộ kinh doanh cập nhật",
+    "legal_basis": "Nghị định 01/2021/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=2.000720",
+    "raw_content": "Khi hộ kinh doanh có thay đổi về ngành nghề, địa điểm, vốn hoặc chủ hộ, phải thông báo với Phòng TC-KH quận/huyện. Phí 50.000 đồng. Thời gian 3 ngày làm việc.",
+    "form_templates": [
+      {
+        "name": "DKchidinhgiahanchidinh.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fc135b0b86a5bc8"
+      }
+    ]
+  },
+  {
+    "code": "3.000347",
+    "name": "Đổi giấy phép lái xe",
+    "category": "Giao thông - Vận tải",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Sở Giao thông Vận tải TP.HCM",
+    "processing_time": "05 ngày làm việc",
+    "fee": "135.000 đồng",
+    "requirements": "GPLX hết hạn, bị hỏng, rách; Hoặc muốn đổi từ GPLX cũ sang GPLX mới theo mẫu hiện hành",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Sở GTVT hoặc trực tuyến\nBước 2: Kiểm tra hồ sơ, đối chiếu thông tin\nBước 3: Cấp GPLX mới",
+    "required_documents": "1. Đơn đề nghị đổi GPLX (theo mẫu)\n2. GPLX đang sử dụng (bản gốc)\n3. Giấy chứng nhận sức khỏe\n4. CMND/CCCD\n5. Ảnh thẻ 3x4 (02 ảnh)",
+    "result": "Giấy phép lái xe mới (cùng hạng)",
+    "legal_basis": "Thông tư 12/2017/TT-BGTVT; Thông tư 38/2019/TT-BGTVT",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=3.000347",
+    "raw_content": "Đổi GPLX khi hết hạn (hạng B2: 5 năm; hạng C trở lên: 5 năm; B1 không thời hạn) hoặc bị hỏng, mất. Không cần thi lại. Nộp hồ sơ tại Sở GTVT TP.HCM hoặc trực tuyến tại dichvucong.gov.vn. Phí 135.000 đồng.",
+    "form_templates": [
+      {
+        "name": "Phu luc 1 c_ Noi dung van kien Chương trinh sd vien tro PCP.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe46109c42bceeb"
+      }
+    ]
+  },
+  {
+    "code": "3.000348",
+    "name": "Cấp lại giấy phép lái xe bị mất",
+    "category": "Giao thông - Vận tải",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Sở Giao thông Vận tải TP.HCM",
+    "processing_time": "05 ngày làm việc",
+    "fee": "135.000 đồng",
+    "requirements": "GPLX bị mất; Phải có xác nhận của cơ quan công an về việc mất GPLX",
+    "procedure_steps": "Bước 1: Trình báo công an về việc mất GPLX\nBước 2: Nộp hồ sơ tại Sở GTVT\nBước 3: Kiểm tra, xác minh\nBước 4: Cấp GPLX mới",
+    "required_documents": "1. Đơn đề nghị cấp lại GPLX\n2. Xác nhận của công an về mất GPLX\n3. Giấy chứng nhận sức khỏe\n4. CMND/CCCD\n5. Ảnh thẻ 3x4 (02 ảnh)",
+    "result": "Giấy phép lái xe cấp lại",
+    "legal_basis": "Thông tư 12/2017/TT-BGTVT",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=3.000348",
+    "raw_content": "Khi mất GPLX, cần trình báo công an rồi mới làm thủ tục cấp lại tại Sở GTVT TP.HCM. Phí 135.000 đồng. Thời gian xử lý 5 ngày. Trong thời gian chờ cấp lại, có thể bị phạt nếu lái xe không có bằng.",
+    "form_templates": [
+      {
+        "name": "Phu luc 1 c_ Noi dung van kien Chương trinh sd vien tro PCP.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe46109c42bceeb"
+      }
+    ]
+  },
+  {
+    "code": "1.003453",
+    "name": "Cấp phiếu lý lịch tư pháp số 1",
+    "category": "Tư pháp",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Sở Tư pháp TP.HCM",
+    "processing_time": "10 ngày làm việc; 15 ngày nếu cần xác minh",
+    "fee": "200.000 đồng",
+    "requirements": "Công dân Việt Nam; Người nước ngoài đã hoặc đang cư trú tại Việt Nam",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Sở Tư pháp hoặc qua bưu điện hoặc trực tuyến\nBước 2: Kiểm tra, tra cứu thông tin\nBước 3: Cấp Phiếu lý lịch tư pháp",
+    "required_documents": "1. Tờ khai yêu cầu cấp Phiếu lý lịch tư pháp (theo mẫu)\n2. CMND/CCCD (bản sao có công chứng)\n3. Ảnh thẻ 3x4 (02 ảnh)\n4. Giấy ủy quyền (nếu nhờ người khác nộp)",
+    "result": "Phiếu lý lịch tư pháp số 1 (xác nhận có hoặc không có án tích)",
+    "legal_basis": "Luật Lý lịch tư pháp 2009; Thông tư 13/2011/TT-BTP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.003453",
+    "raw_content": "Phiếu lý lịch tư pháp số 1 xác nhận người đó có hay không có án tích. Thường dùng để xin việc, đi nước ngoài, thành lập doanh nghiệp, đăng ký hành nghề... Nộp hồ sơ tại Sở Tư pháp TP.HCM hoặc trực tuyến. Phí 200.000 đồng.",
+    "form_templates": [
+      {
+        "name": "Tờ trình của UBND cấp tỉnh.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe9ce7b1eb2cc24"
+      }
+    ]
+  },
+  {
+    "code": "1.003454",
+    "name": "Cấp phiếu lý lịch tư pháp số 2",
+    "category": "Tư pháp",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Sở Tư pháp TP.HCM",
+    "processing_time": "10 ngày làm việc",
+    "fee": "200.000 đồng",
+    "requirements": "Cơ quan tiến hành tố tụng, cơ quan Nhà nước có thẩm quyền; Hoặc cá nhân có nhu cầu về bản thân mình",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Sở Tư pháp\nBước 2: Kiểm tra, tra cứu\nBước 3: Cấp Phiếu lý lịch tư pháp số 2",
+    "required_documents": "1. Văn bản yêu cầu của cơ quan (nếu là cơ quan yêu cầu)\n2. CMND/CCCD\n3. Ảnh thẻ 3x4 (02 ảnh)",
+    "result": "Phiếu lý lịch tư pháp số 2 (ghi đầy đủ thông tin án tích kể cả đã được xóa)",
+    "legal_basis": "Luật Lý lịch tư pháp 2009; Thông tư 13/2011/TT-BTP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.003454",
+    "raw_content": "Phiếu lý lịch tư pháp số 2 thể hiện đầy đủ thông tin về án tích, kể cả các án tích đã được xóa. Chỉ cấp cho cơ quan tiến hành tố tụng, cơ quan Nhà nước hoặc người được cấp về bản thân mình. Phí 200.000 đồng.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.003454"
+      }
+    ]
+  },
+  {
+    "code": "1.003670",
+    "name": "Đăng ký nhận nuôi con nuôi trong nước",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "30 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Người nhận nuôi đủ điều kiện theo Luật nuôi con nuôi 2010; Trẻ em đủ điều kiện được nhận làm con nuôi; Có sự đồng ý của cha, mẹ đẻ",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại UBND cấp xã nơi thường trú của người nhận hoặc trẻ được nhận\nBước 2: Kiểm tra hồ sơ, lấy ý kiến các bên liên quan\nBước 3: Tổ chức lễ giao nhận con nuôi, cấp Giấy chứng nhận",
+    "required_documents": "1. Tờ khai đăng ký nuôi con nuôi\n2. Giấy khai sinh của trẻ\n3. CMND/CCCD, giấy đăng ký kết hôn của người nhận nuôi\n4. Văn bản đồng ý của cha, mẹ đẻ\n5. Giấy chứng nhận sức khỏe của người nhận nuôi",
+    "result": "Giấy chứng nhận nuôi con nuôi; Cấp Giấy khai sinh mới cho trẻ",
+    "legal_basis": "Luật Nuôi con nuôi 2010; Nghị định 19/2011/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.003670",
+    "raw_content": "Đăng ký nuôi con nuôi trong nước là thủ tục công nhận quan hệ cha/mẹ nuôi - con nuôi. Sau khi đăng ký, đứa trẻ có đầy đủ quyền như con đẻ. Thủ tục miễn phí, thực hiện tại UBND cấp xã.",
+    "form_templates": [
+      {
+        "name": "Mẫu B30.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fda5d9ab27b300a"
+      }
+    ]
+  },
+  {
+    "code": "1.000881",
+    "name": "Đăng ký thay đổi, cải chính thông tin hộ tịch",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "03 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Có sai sót trong giấy tờ hộ tịch hoặc có thay đổi thông tin cần cập nhật theo quy định",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại UBND cấp xã\nBước 2: Kiểm tra tính hợp lệ, xác minh\nBước 3: Sửa đổi, cập nhật thông tin trong sổ hộ tịch",
+    "required_documents": "1. Tờ khai thay đổi, cải chính (theo mẫu)\n2. Giấy khai sinh gốc và các giấy tờ hộ tịch liên quan\n3. CMND/CCCD\n4. Giấy tờ chứng minh lý do thay đổi",
+    "result": "Giấy khai sinh hoặc hộ tịch được cải chính, bổ sung",
+    "legal_basis": "Luật Hộ tịch 2014; Nghị định 123/2015/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.000881",
+    "raw_content": "Cải chính hộ tịch dùng để sửa các sai sót trong Giấy khai sinh, Giấy chứng nhận kết hôn... như sai tên, sai ngày sinh, sai địa chỉ. Nộp tại UBND cấp xã, miễn phí. Thời gian 3 ngày.",
+    "form_templates": [
+      {
+        "name": "phụ lục 6a.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3febe7dc7a7466bd"
+      }
+    ]
+  },
+  {
+    "code": "1.004884",
+    "name": "Đăng ký lại khai sinh",
+    "category": "Hộ tịch",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn nơi đã đăng ký khai sinh trước đây",
+    "processing_time": "05 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Sự kiện khai sinh đã được đăng ký nhưng sổ hộ tịch bị mất, hỏng hoặc không tìm được",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại UBND cấp xã nơi đã đăng ký khai sinh trước đây\nBước 2: Kiểm tra, xác minh thông tin từ các giấy tờ liên quan\nBước 3: Đăng ký lại và cấp Giấy khai sinh mới",
+    "required_documents": "1. Tờ khai đăng ký lại khai sinh (theo mẫu)\n2. Giấy tờ có thông tin cá nhân (bằng tốt nghiệp, CMND cũ, học bạ...)\n3. CMND/CCCD hiện tại\n4. Giấy tờ của cha, mẹ liên quan",
+    "result": "Giấy khai sinh mới được cấp lại",
+    "legal_basis": "Luật Hộ tịch 2014; Thông tư 04/2020/TT-BTP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004884",
+    "raw_content": "Đăng ký lại khai sinh khi Giấy khai sinh gốc bị mất, hỏng hoặc UBND nơi đăng ký mất sổ hộ tịch. Cần thu thập các giấy tờ chứng minh thông tin cá nhân để làm căn cứ. Miễn phí.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004800"
+      }
+    ]
+  },
+  {
+    "code": "2.001827",
+    "name": "Cấp giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm",
+    "category": "Y tế",
+    "level": "Cấp huyện",
+    "implementing_agency": "Phòng Y tế quận/huyện TP.HCM",
+    "processing_time": "10 ngày làm việc",
+    "fee": "150.000 đồng",
+    "requirements": "Cơ sở kinh doanh dịch vụ ăn uống, chế biến thực phẩm; Đáp ứng các điều kiện về cơ sở vật chất, trang thiết bị, con người",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Phòng Y tế quận/huyện\nBước 2: Thẩm định hồ sơ, kiểm tra thực địa tại cơ sở\nBước 3: Cấp Giấy chứng nhận ATTP",
+    "required_documents": "1. Đơn đề nghị cấp Giấy chứng nhận ATTP\n2. Giấy chứng nhận đăng ký kinh doanh\n3. Giấy xác nhận kiến thức về ATTP của chủ cơ sở\n4. Giấy khám sức khỏe của người trực tiếp chế biến\n5. Bản mô tả quy trình chế biến và bảo quản",
+    "result": "Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm (có giá trị 03 năm)",
+    "legal_basis": "Luật An toàn thực phẩm 2010; Nghị định 15/2018/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=2.001827",
+    "raw_content": "Giấy chứng nhận ATTP bắt buộc với nhà hàng, quán ăn, cơ sở chế biến thực phẩm. Nộp hồ sơ tại Phòng Y tế quận/huyện. Phí 150.000 đồng. Có giá trị 3 năm rồi phải tái cấp.",
+    "form_templates": [
+      {
+        "name": "Mẫu số 01.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fa6c8e8b68d6300"
+      },
+      {
+        "name": "Mẫu số 05.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fdcf83a03a25f3c"
+      }
+    ]
+  },
+  {
+    "code": "1.014748",
+    "name": "Hưởng trợ cấp thất nghiệp",
+    "category": "Lao động - Việc làm",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Trung tâm Dịch vụ việc làm TP.HCM",
+    "processing_time": "20 ngày làm việc kể từ ngày nộp đủ hồ sơ",
+    "fee": "Không thu phí",
+    "requirements": "Đã đóng BHTN đủ 12 tháng trong 24 tháng trước khi thất nghiệp; Đăng ký trong vòng 03 tháng kể từ ngày nghỉ việc; Chưa tìm được việc sau 15 ngày đăng ký",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Trung tâm DVVL hoặc trực tuyến trong vòng 03 tháng\nBước 2: Trung tâm xem xét điều kiện và giải quyết hồ sơ\nBước 3: Nhận Quyết định hưởng trợ cấp\nBước 4: Hàng tháng thông báo tình trạng tìm việc để tiếp tục nhận trợ cấp",
+    "required_documents": "1. Đề nghị hưởng TCTN (theo mẫu)\n2. Quyết định thôi việc hoặc HĐ lao động hết hạn\n3. Sổ BHXH hoặc xác nhận đóng BHTN\n4. CMND/CCCD\n5. Ảnh thẻ 3x4 (02 ảnh)",
+    "result": "Quyết định hưởng trợ cấp thất nghiệp; Thẻ bảo hiểm y tế trong thời gian hưởng",
+    "legal_basis": "Luật Việc làm 2013; Nghị định 28/2015/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.014748",
+    "raw_content": "Trợ cấp thất nghiệp hỗ trợ người lao động khi mất việc làm. Mức hưởng 60% mức bình quân tiền lương đóng BHTN trong 06 tháng liền kề. Thời gian hưởng từ 3-12 tháng tùy số tháng đóng BHTN. Nộp hồ sơ tại Trung tâm DVVL TP.HCM.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.005000"
+      }
+    ]
+  },
+  {
+    "code": "1.004700",
+    "name": "Xác nhận hộ nghèo, hộ cận nghèo",
+    "category": "Lao động - Việc làm",
+    "level": "Cấp xã",
+    "implementing_agency": "UBND phường/xã/thị trấn",
+    "processing_time": "05 ngày làm việc",
+    "fee": "Không thu phí",
+    "requirements": "Hộ gia đình đã có trong danh sách hộ nghèo được xét duyệt và công nhận",
+    "procedure_steps": "Bước 1: Yêu cầu xác nhận tại UBND phường/xã\nBước 2: Đối chiếu danh sách hộ nghèo đã được xét duyệt\nBước 3: Cấp Giấy xác nhận hộ nghèo/hộ cận nghèo",
+    "required_documents": "1. Đơn đề nghị xác nhận\n2. CMND/CCCD của chủ hộ",
+    "result": "Giấy xác nhận hộ nghèo/hộ cận nghèo",
+    "legal_basis": "Nghị định 07/2021/NĐ-CP; Quyết định 59/2015/QĐ-TTg",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004700",
+    "raw_content": "Giấy xác nhận hộ nghèo dùng để hưởng các chính sách ưu đãi: miễn giảm học phí, hỗ trợ y tế, vay vốn ưu đãi... Đến UBND phường/xã xin xác nhận. Thủ tục đơn giản, miễn phí.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.004700"
+      }
+    ]
+  },
+  {
+    "code": "1.001029",
+    "name": "Cấp giấy phép kinh doanh dịch vụ karaoke",
+    "category": "Doanh nghiệp",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Sở Văn hóa và Thể thao TP.HCM",
+    "processing_time": "20 ngày làm việc",
+    "fee": "1.000.000 đồng",
+    "requirements": "Cơ sở đáp ứng điều kiện về địa điểm, thiết bị cách âm, PCCC; Không nằm trong khu vực cấm kinh doanh karaoke; Đã có giấy phép kinh doanh",
+    "procedure_steps": "Bước 1: Nộp hồ sơ tại Sở Văn hóa và Thể thao\nBước 2: Kiểm tra hồ sơ, thẩm tra thực tế cơ sở\nBước 3: Cấp Giấy phép kinh doanh karaoke",
+    "required_documents": "1. Đơn đề nghị cấp phép\n2. Giấy chứng nhận đăng ký kinh doanh\n3. Giấy chứng nhận đủ điều kiện PCCC\n4. Bản vẽ mặt bằng cơ sở\n5. Hợp đồng thuê hoặc giấy tờ sở hữu địa điểm",
+    "result": "Giấy phép kinh doanh karaoke (có thời hạn)",
+    "legal_basis": "Nghị định 54/2019/NĐ-CP; Quyết định của UBND TP.HCM về quản lý karaoke",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.001029",
+    "raw_content": "Kinh doanh karaoke phải có giấy phép của Sở Văn hóa và Thể thao. Cơ sở phải đáp ứng về cách âm, PCCC, không gần trường học, bệnh viện. Phí 1.000.000 đồng.",
+    "form_templates": [
+      {
+        "name": "Dơn tham gia mang luoi TVV ca nhan.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fc23d1e5cbba8c4"
+      },
+      {
+        "name": "So yeu ly lic Ca nhan.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe97d7e6f417d23"
+      },
+      {
+        "name": "Dơn tham gia Mang lươi TVV to chuc.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fe8c871164c4dab"
+      },
+      {
+        "name": "Ho so nang luc cua to chuc.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3fdd07aa6f1617fa"
+      }
+    ]
+  },
+  {
+    "code": "1.005200",
+    "name": "Đăng ký bảo hộ nhãn hiệu hàng hóa",
+    "category": "Sở hữu trí tuệ",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Cục Sở hữu trí tuệ (thông qua Sở KH&CN TP.HCM)",
+    "processing_time": "12-18 tháng",
+    "fee": "Khoảng 180.000 - 600.000 đồng tùy số nhóm sản phẩm/dịch vụ",
+    "requirements": "Nhãn hiệu có khả năng phân biệt; Không trùng hoặc tương tự đến mức nhầm lẫn với nhãn hiệu đã đăng ký",
+    "procedure_steps": "Bước 1: Tra cứu khả năng đăng ký (khuyến nghị)\nBước 2: Nộp đơn tại Cục SHTT hoặc qua bưu điện\nBước 3: Thẩm định hình thức (01 tháng)\nBước 4: Công bố đơn trên Công báo SHCN (02 tháng)\nBước 5: Thẩm định nội dung (9-12 tháng)\nBước 6: Cấp Giấy chứng nhận đăng ký nhãn hiệu",
+    "required_documents": "1. Tờ khai đăng ký nhãn hiệu\n2. Mẫu nhãn hiệu (15 mẫu)\n3. Danh mục sản phẩm/dịch vụ mang nhãn hiệu\n4. Chứng từ nộp phí\n5. Giấy ủy quyền (nếu qua đại diện SHTT)",
+    "result": "Giấy chứng nhận đăng ký nhãn hiệu (có giá trị 10 năm, gia hạn được vô thời hạn)",
+    "legal_basis": "Luật Sở hữu trí tuệ 2005 (sửa đổi 2022); Nghị định 65/2023/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.005200",
+    "raw_content": "Đăng ký nhãn hiệu để bảo hộ thương hiệu. Sau khi được cấp văn bằng bảo hộ, chủ nhãn hiệu có độc quyền sử dụng trên toàn quốc trong 10 năm (có thể gia hạn). Nên tra cứu khả năng đăng ký trước để tránh mất phí.",
+    "form_templates": [
+      {
+        "name": "Xem mẫu đơn và tải về trên Cổng Dịch vụ công Quốc gia",
+        "code": "dichvucong.gov.vn",
+        "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.005200"
+      }
+    ]
+  },
+  {
+    "code": "1.014199",
+    "name": "Cấp giấy phép lao động cho người nước ngoài",
+    "category": "Lao động - Việc làm",
+    "level": "Cấp tỉnh",
+    "implementing_agency": "Sở Lao động Thương binh và Xã hội TP.HCM",
+    "processing_time": "07 ngày làm việc",
+    "fee": "600.000 đồng",
+    "requirements": "Đủ 18 tuổi; Có sức khỏe phù hợp; Là nhà quản lý, giám đốc điều hành, chuyên gia hoặc lao động kỹ thuật; Không có án hình sự",
+    "procedure_steps": "Bước 1: Doanh nghiệp nộp hồ sơ tại Sở LĐTBXH trước ít nhất 15 ngày\nBước 2: Xem xét điều kiện người lao động và doanh nghiệp\nBước 3: Cấp Giấy phép lao động",
+    "required_documents": "1. Văn bản đề nghị của người sử dụng lao động\n2. Lý lịch tự thuật của người lao động nước ngoài\n3. Giấy tờ chứng minh là chuyên gia/nhà quản lý\n4. Giấy khám sức khỏe\n5. Ảnh thẻ 4x6 (02 ảnh)\n6. Hộ chiếu (bản sao công chứng)\n7. Phiếu lý lịch tư pháp của nước ngoài",
+    "result": "Giấy phép lao động (tối đa 02 năm, được gia hạn)",
+    "legal_basis": "Bộ luật Lao động 2019; Nghị định 152/2020/NĐ-CP",
+    "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.014199",
+    "raw_content": "Người nước ngoài làm việc tại Việt Nam phải có Giấy phép lao động (trừ trường hợp miễn). Doanh nghiệp có trách nhiệm làm thủ tục cho người lao động. Phí 600.000 đồng. GPLĐ có thời hạn tối đa 02 năm và được gia hạn.",
+    "form_templates": [
+      {
+        "name": "Phiếu khai báo chất thải phóng xạ.docx",
+        "url": "https://csdl.dichvucong.gov.vn/web/jsp/download_file.jsp?ma=3f7f36ac4b473b00"
+      }
+    ]
+  }
+]

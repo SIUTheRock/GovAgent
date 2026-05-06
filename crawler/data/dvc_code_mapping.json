@@ -1,0 +1,650 @@
+{
+  "1.001057": {
+    "name": "Cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+    "dvc_code": "1.008089",
+    "dvc_name": "Thủ tục cấp Giấy chứng nhận quyền sử dụng mã số, mã vạch",
+    "score": 0.35,
+    "all_results": [
+      [
+        "1.008813",
+        "Cấp giấy chứng nhận tên định danh"
+      ],
+      [
+        "1.005160",
+        "Thủ tục cấp giấy chứng nhận đăng ký quyền tác giả"
+      ],
+      [
+        "2.002018",
+        "Cấp lại Giấy chứng nhận đăng ký doanh nghiệp, Giấy xác nhận "
+      ],
+      [
+        "1.003135",
+        "Cấp, cấp lại, chuyển đổi giấy chứng nhận khả năng chuyên môn"
+      ],
+      [
+        "1.001656",
+        "Thanh toán trực tiếp chi phí khám, chữa bệnh BHYT/Cấp giấy c"
+      ]
+    ]
+  },
+  "1.001064": {
+    "name": "Cấp bản sao trích lục hộ tịch",
+    "dvc_code": "2.000635",
+    "dvc_name": "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh",
+    "score": 3,
+    "all_results": [
+      [
+        "2.000635",
+        "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh"
+      ],
+      [
+        "1.000797",
+        "Thủ tục cấp bản sao trích lục giấy tờ hộ tịch"
+      ],
+      [
+        "1.000578",
+        "Thủ tục cấp bản sao trích lục giấy tờ hộ tịch tại Bộ Ngoại g"
+      ]
+    ]
+  },
+  "1.001123": {
+    "name": "Chuyển mục đích sử dụng đất",
+    "dvc_code": "1.013952",
+    "dvc_name": "Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất do thay đổi căn cứ quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất; điều chỉnh thời hạn sử dụng đất của dự án đầu tư.",
+    "score": 3,
+    "all_results": [
+      [
+        "1.011687",
+        "Chuyển mục đích sử dụng rừng và đất của dự án phát triển mỏ "
+      ],
+      [
+        "1.013952",
+        "Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyể"
+      ],
+      [
+        "1.013826",
+        "Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyể"
+      ],
+      [
+        "1.013992",
+        "Đăng ký biến động chuyển mục đích sử dụng đất không phải xin"
+      ],
+      [
+        "1.014187",
+        "Trường hợp người sử dụng đất phải nộp tiền sử dụng đất, tiền"
+      ]
+    ]
+  },
+  "1.001125": {
+    "name": "Đăng ký sang tên (chuyển nhượng quyền sử dụng đất)",
+    "dvc_code": "1.013076",
+    "dvc_name": "Cấp chứng nhận đăng ký xe, biển số xe trong trường hợp thay đổi chủ xe (đăng ký sang tên xe) bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã",
+    "score": 0.1111111111111111,
+    "all_results": [
+      [
+        "1.013076",
+        "Cấp chứng nhận đăng ký xe, biển số xe trong trường hợp thay "
+      ]
+    ]
+  },
+  "1.001229": {
+    "name": "Đăng ký thường trú",
+    "dvc_code": "1.004222",
+    "dvc_name": "Đăng ký thường trú",
+    "score": 3,
+    "all_results": [
+      [
+        "1.004222",
+        "Đăng ký thường trú"
+      ],
+      [
+        "2.000986",
+        "Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký "
+      ],
+      [
+        "1.003197",
+        "Xóa đăng ký thường trú"
+      ],
+      [
+        "2.002621",
+        "Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế"
+      ],
+      [
+        "1.010040",
+        "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện"
+      ]
+    ]
+  },
+  "1.001640": {
+    "name": "Đăng ký khai sinh",
+    "dvc_code": "1.001193",
+    "dvc_name": "Thủ tục đăng ký khai sinh",
+    "score": 3,
+    "all_results": [
+      [
+        "1.001193",
+        "Thủ tục đăng ký khai sinh"
+      ],
+      [
+        "1.004884",
+        "Thủ tục đăng ký lại khai sinh"
+      ],
+      [
+        "2.000986",
+        "Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký "
+      ],
+      [
+        "2.001023",
+        "Liên thông các thủ tục hành chính về đăng ký khai sinh, cấp "
+      ],
+      [
+        "1.004772",
+        "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá "
+      ]
+    ]
+  },
+  "1.003306": {
+    "name": "Đăng ký tạm trú",
+    "dvc_code": "1.004194",
+    "dvc_name": "Đăng ký tạm trú",
+    "score": 3,
+    "all_results": [
+      [
+        "1.004194",
+        "Đăng ký tạm trú"
+      ],
+      [
+        "1.010028",
+        "Xóa đăng ký tạm trú"
+      ],
+      [
+        "1.010040",
+        "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện"
+      ]
+    ]
+  },
+  "1.003311": {
+    "name": "Tách hộ khẩu (tách hộ)",
+    "dvc_code": null,
+    "dvc_name": null,
+    "score": 0
+  },
+  "1.003453": {
+    "name": "Cấp phiếu lý lịch tư pháp số 1",
+    "dvc_code": "3.000333",
+    "dvc_name": "Cấp Phiếu Lý lịch tư pháp cho công dân Việt Nam, người nước ngoài đang cư trú tại Việt Nam, người Việt Nam đang cư trú ở nước ngoài",
+    "score": 0.3,
+    "all_results": [
+      [
+        "3.000333",
+        "Cấp Phiếu Lý lịch tư pháp cho công dân Việt Nam, người nước "
+      ],
+      [
+        "3.000334",
+        "Cấp Phiếu Lý lịch tư pháp theo yêu cầu của cơ quan nhà nước,"
+      ],
+      [
+        "3.000330",
+        "Cấp Phiếu lý lịch tư pháp cho công dân Việt Nam mà không xác"
+      ],
+      [
+        "1.011501",
+        "Liên thông thủ tục hành chính cấp Chứng chỉ hành nghề dược ("
+      ],
+      [
+        "3.000335",
+        "Cấp Phiếu lý lịch tư pháp theo yêu cầu của cơ quan tiến hành"
+      ]
+    ]
+  },
+  "1.003454": {
+    "name": "Cấp phiếu lý lịch tư pháp số 2",
+    "dvc_code": "3.000333",
+    "dvc_name": "Cấp Phiếu Lý lịch tư pháp cho công dân Việt Nam, người nước ngoài đang cư trú tại Việt Nam, người Việt Nam đang cư trú ở nước ngoài",
+    "score": 0.3,
+    "all_results": [
+      [
+        "3.000333",
+        "Cấp Phiếu Lý lịch tư pháp cho công dân Việt Nam, người nước "
+      ],
+      [
+        "3.000334",
+        "Cấp Phiếu Lý lịch tư pháp theo yêu cầu của cơ quan nhà nước,"
+      ],
+      [
+        "3.000330",
+        "Cấp Phiếu lý lịch tư pháp cho công dân Việt Nam mà không xác"
+      ],
+      [
+        "1.011501",
+        "Liên thông thủ tục hành chính cấp Chứng chỉ hành nghề dược ("
+      ],
+      [
+        "3.000335",
+        "Cấp Phiếu lý lịch tư pháp theo yêu cầu của cơ quan tiến hành"
+      ]
+    ]
+  },
+  "1.003559": {
+    "name": "Xác nhận tình trạng hôn nhân",
+    "dvc_code": "1.004873",
+    "dvc_name": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+    "score": 3,
+    "all_results": [
+      [
+        "1.004873",
+        "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân"
+      ],
+      [
+        "2.000689",
+        "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân cho công dân V"
+      ]
+    ]
+  },
+  "1.003670": {
+    "name": "Đăng ký nhận nuôi con nuôi trong nước",
+    "dvc_code": "1.000808",
+    "dvc_name": "Thủ tục đăng ký việc nhận nuôi con nuôi giữa người nhận nuôi là công dân Việt Nam tạm trú ở nước ngoài với trẻ em được nhận nuôi là công dân Việt Nam tạm trú ở nước ngoài",
+    "score": 0.2727272727272727,
+    "all_results": [
+      [
+        "1.004692",
+        "Cấp, cấp lại Giấy xác nhận đăng ký nuôi trồng thuỷ sản lồng "
+      ],
+      [
+        "1.000808",
+        "Thủ tục đăng ký việc nhận nuôi con nuôi giữa người nhận nuôi"
+      ]
+    ]
+  },
+  "1.003820": {
+    "name": "Cấp giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm",
+    "dvc_code": "2.001827",
+    "dvc_name": "Cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm nông, lâm, thủy sản",
+    "score": 3,
+    "all_results": [
+      [
+        "2.001827",
+        "Cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối"
+      ],
+      [
+        "1.011327",
+        "Cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối"
+      ],
+      [
+        "1.008435",
+        "Cấp, Cấp lại Giấy chứng nhận cơ sở đủ điều kiện an toàn thực"
+      ],
+      [
+        "1.013855",
+        "Cấp giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối"
+      ]
+    ]
+  },
+  "1.004621": {
+    "name": "Đăng ký thay đổi, cải chính thông tin hộ tịch",
+    "dvc_code": "2.000720",
+    "dvc_name": "Đăng ký thay đổi nội dung đăng ký hộ kinh doanh",
+    "score": 0.4,
+    "all_results": [
+      [
+        "2.000720",
+        "Đăng ký thay đổi nội dung đăng ký hộ kinh doanh"
+      ],
+      [
+        "2.002041",
+        "Đăng ký thay đổi địa chỉ trụ sở chính, đăng ký đổi tên của d"
+      ],
+      [
+        "2.002045",
+        "Đăng ký thay đổi nội dung đăng ký hoạt động chi nhánh, văn p"
+      ],
+      [
+        "2.002009",
+        "Đăng ký thay đổi vốn điều lệ, phần vốn góp, tỷ lệ phần vốn g"
+      ],
+      [
+        "1.000881",
+        "Thủ tục đăng ký việc thay đổi, cải chính, bổ sung hộ tịch, x"
+      ]
+    ]
+  },
+  "1.004700": {
+    "name": "Xác nhận hộ nghèo, hộ cận nghèo",
+    "dvc_code": "1.014103",
+    "dvc_name": "Xác nhận đối tượng hộ thoát nghèo để miễn, giảm học phí cho học sinh",
+    "score": 0.2857142857142857,
+    "all_results": [
+      [
+        "1.014103",
+        "Xác nhận đối tượng hộ thoát nghèo để miễn, giảm học phí cho "
+      ]
+    ]
+  },
+  "1.004734": {
+    "name": "Đăng ký kết hôn",
+    "dvc_code": "1.000894",
+    "dvc_name": "Thủ tục đăng ký kết hôn",
+    "score": 3,
+    "all_results": [
+      [
+        "1.000894",
+        "Thủ tục đăng ký kết hôn"
+      ],
+      [
+        "2.000806",
+        "Thủ tục đăng ký kết hôn có yếu tố nước ngoài"
+      ],
+      [
+        "1.004746",
+        "Thủ tục đăng ký lại kết hôn"
+      ],
+      [
+        "1.000593",
+        "Thủ tục đăng ký kết hôn lưu động"
+      ],
+      [
+        "1.000094",
+        "Thủ tục đăng ký kết hôn có yếu tố nước ngoài tại khu vực biê"
+      ]
+    ]
+  },
+  "1.004792": {
+    "name": "Đăng ký khai tử",
+    "dvc_code": "1.000656",
+    "dvc_name": "Thủ tục đăng ký khai tử",
+    "score": 3,
+    "all_results": [
+      [
+        "1.000656",
+        "Thủ tục đăng ký khai tử"
+      ],
+      [
+        "1.000419",
+        "Thủ tục đăng ký khai tử lưu động"
+      ],
+      [
+        "1.005461",
+        "Đăng ký lại khai tử"
+      ],
+      [
+        "1.001766",
+        "Thủ tục đăng ký khai tử có yếu tố nước ngoài"
+      ],
+      [
+        "2.000527",
+        "Thủ tục đăng ký khai tử cho công dân Việt Nam ở nước ngoài"
+      ]
+    ]
+  },
+  "1.004800": {
+    "name": "Đăng ký lại khai sinh",
+    "dvc_code": "1.004884",
+    "dvc_name": "Thủ tục đăng ký lại khai sinh",
+    "score": 3,
+    "all_results": [
+      [
+        "1.004884",
+        "Thủ tục đăng ký lại khai sinh"
+      ],
+      [
+        "2.000522",
+        "Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài"
+      ]
+    ]
+  },
+  "1.004850": {
+    "name": "Cấp Giấy phép xây dựng nhà ở riêng lẻ tại đô thị",
+    "dvc_code": "1.013222",
+    "dvc_name": "Cấp giấy phép hoạt động xây dựng cho nhà thầu nước ngoài..",
+    "score": 0.5,
+    "all_results": [
+      [
+        "1.009122",
+        "Cấp giấy phép xây dựng có thời hạn đối với công trình, nhà ở"
+      ],
+      [
+        "1.013225",
+        "Cấp giấy phép xây dựng mới đối với công trình cấp III, cấp I"
+      ],
+      [
+        "1.001755",
+        "Thủ tục cấp giấy phép xây dựng tượng đài, tranh hoành tráng"
+      ],
+      [
+        "1.013236",
+        "Cấp giấy phép xây dựng mới công trình cấp đặc biệt, cấp I, c"
+      ],
+      [
+        "1.005134",
+        "Cấp giấy phép xây dựng công trình thiết yếu, dùng chung với "
+      ]
+    ]
+  },
+  "1.004850A": {
+    "name": "Điều chỉnh giấy phép xây dựng",
+    "dvc_code": "1.013231",
+    "dvc_name": "Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+    "score": 3,
+    "all_results": [
+      [
+        "1.013231",
+        "Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp đặc"
+      ],
+      [
+        "1.013226",
+        "Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp III"
+      ],
+      [
+        "1.013224",
+        "Cấp điều chỉnh giấy phép hoạt động xây dựng cho nhà thầu nướ"
+      ]
+    ]
+  },
+  "1.005000": {
+    "name": "Hưởng trợ cấp thất nghiệp",
+    "dvc_code": "1.014748",
+    "dvc_name": "Hưởng trợ cấp thất nghiệp (Cấp tỉnh)",
+    "score": 3,
+    "all_results": [
+      [
+        "1.014748",
+        "Hưởng trợ cấp thất nghiệp (Cấp tỉnh)"
+      ],
+      [
+        "1.014750",
+        "Tạm dừng hưởng trợ cấp thất nghiệp (Cấp tỉnh)"
+      ],
+      [
+        "1.014752",
+        "Chấm dứt hưởng trợ cấp thất nghiệp (Cấp tỉnh)"
+      ],
+      [
+        "1.014753",
+        "Chuyển nơi hưởng trợ cấp thất nghiệp (Cấp tỉnh)"
+      ],
+      [
+        "1.014751",
+        "Tiếp tục hưởng trợ cấp thất nghiệp (Cấp tỉnh)"
+      ]
+    ]
+  },
+  "1.005100": {
+    "name": "Cấp giấy phép kinh doanh dịch vụ karaoke",
+    "dvc_code": "1.001029",
+    "dvc_name": "Thủ tục cấp giấy phép đủ điều kiện kinh doanh dịch vụ karaoke",
+    "score": 0.7272727272727273,
+    "all_results": [
+      [
+        "1.001029",
+        "Thủ tục cấp giấy phép đủ điều kiện kinh doanh dịch vụ karaok"
+      ],
+      [
+        "1.014475",
+        "Thủ tục hành chính liên thông điện tử về cấp Giấy phép đủ đi"
+      ]
+    ]
+  },
+  "1.005200": {
+    "name": "Đăng ký bảo hộ nhãn hiệu hàng hóa",
+    "dvc_code": "1.012065",
+    "dvc_name": "Đăng ký bảo hộ giống cây trồng",
+    "score": 0.5,
+    "all_results": [
+      [
+        "1.012065",
+        "Đăng ký bảo hộ giống cây trồng"
+      ],
+      [
+        "1.011997",
+        "Hỗ trợ đăng ký bảo hộ sáng chế, kiểu dáng công nghiệp, nhãn "
+      ],
+      [
+        "1.012066",
+        "Sửa đổi, bổ sung Đơn đăng ký bảo hộ giống cây trồng"
+      ],
+      [
+        "3.000390",
+        "Đăng ký khai báo công cụ hỗ trợ"
+      ]
+    ]
+  },
+  "1.005300": {
+    "name": "Cấp giấy phép lao động cho người nước ngoài",
+    "dvc_code": "1.000479",
+    "dvc_name": "Cấp Giấy phép hoạt động cho thuê lại lao động",
+    "score": 0.6666666666666666,
+    "all_results": [
+      [
+        "2.000907",
+        "Cấp giấy phép lao động cho chuyên gia khoa học công nghệ làm"
+      ],
+      [
+        "1.000479",
+        "Cấp Giấy phép hoạt động cho thuê lại lao động"
+      ],
+      [
+        "2.000902",
+        "Cấp lại giấy phép lao động cho chuyên gia khoa học công nghệ"
+      ],
+      [
+        "2.001940",
+        "Báo cáo chuyên gia khoa học công nghệ không thuộc diện cấp g"
+      ],
+      [
+        "1.014199",
+        "Cấp giấy phép lao động đối với người lao động nước ngoài làm"
+      ]
+    ]
+  },
+  "2.000850": {
+    "name": "Cấp Giấy phép lái xe",
+    "dvc_code": "3.000353",
+    "dvc_name": "Cấp giấy phép lái xe quốc tế",
+    "score": 3,
+    "all_results": [
+      [
+        "3.000348",
+        "Cấp lại giấy phép lái xe"
+      ],
+      [
+        "1.005210",
+        "Cấp lại Giấy phép đào tạo lái xe ô tô khi bị mất, bị hỏng, c"
+      ],
+      [
+        "3.000353",
+        "Cấp giấy phép lái xe quốc tế"
+      ],
+      [
+        "1.001751",
+        "Cấp bổ sung xe tập lái, cấp lại Giấy phép xe tập lái"
+      ],
+      [
+        "3.000346",
+        "Cấp giấy phép lái xe"
+      ]
+    ]
+  },
+  "2.000850A": {
+    "name": "Đổi giấy phép lái xe",
+    "dvc_code": "3.000347",
+    "dvc_name": "Đổi giấy phép lái xe",
+    "score": 3,
+    "all_results": [
+      [
+        "3.000347",
+        "Đổi giấy phép lái xe"
+      ],
+      [
+        "3.000351",
+        "Đổi giấy phép lái xe hoặc bằng lái xe của người nước ngoài"
+      ],
+      [
+        "3.000350",
+        "Đổi giấy phép lái xe Công an nhân dân"
+      ],
+      [
+        "3.000349",
+        "Đổi giấy phép lái xe quân sự do Bộ Quốc phòng cấp"
+      ]
+    ]
+  },
+  "2.000850B": {
+    "name": "Cấp lại giấy phép lái xe bị mất",
+    "dvc_code": "1.005210",
+    "dvc_name": "Cấp lại Giấy phép đào tạo lái xe ô tô khi bị mất, bị hỏng, có sự thay đổi về tên của cơ sở đào tạo",
+    "score": 0.30434782608695654,
+    "all_results": [
+      [
+        "1.005210",
+        "Cấp lại Giấy phép đào tạo lái xe ô tô khi bị mất, bị hỏng, c"
+      ]
+    ]
+  },
+  "2.001682": {
+    "name": "Đăng ký kinh doanh hộ cá thể",
+    "dvc_code": "1.001612",
+    "dvc_name": "Đăng ký thành lập hộ kinh doanh",
+    "score": 0.7142857142857143,
+    "all_results": [
+      [
+        "1.001612",
+        "Đăng ký thành lập hộ kinh doanh"
+      ],
+      [
+        "2.000720",
+        "Đăng ký thay đổi nội dung đăng ký hộ kinh doanh"
+      ],
+      [
+        "2.002045",
+        "Đăng ký thay đổi nội dung đăng ký hoạt động chi nhánh, văn p"
+      ],
+      [
+        "2.002225",
+        "Đăng ký thuế lần đầu đối với người nộp thuế là tổ chức (trừ "
+      ],
+      [
+        "2.002031",
+        "Cấp đối Giấy phép đầu tư, Giấy chứng nhận đầu tư (đồng thời "
+      ]
+    ]
+  },
+  "2.001682A": {
+    "name": "Thay đổi nội dung đăng ký hộ kinh doanh",
+    "dvc_code": "2.000720",
+    "dvc_name": "Đăng ký thay đổi nội dung đăng ký hộ kinh doanh",
+    "score": 3,
+    "all_results": [
+      [
+        "2.000720",
+        "Đăng ký thay đổi nội dung đăng ký hộ kinh doanh"
+      ]
+    ]
+  },
+  "2.002400": {
+    "name": "Cấp giấy khám sức khỏe",
+    "dvc_code": null,
+    "dvc_name": null,
+    "score": 0
+  }
+}
