@@ -4,6 +4,10 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='repla
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 from contextlib import asynccontextmanager
+# ---------------------------------------------------------
+# Copyright (c) 2025 PPNCKH Contributors
+# Licensed under the MIT License.
+# ---------------------------------------------------------
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, field_validator

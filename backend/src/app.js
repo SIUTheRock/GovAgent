@@ -1,4 +1,8 @@
 require('dotenv').config();
+/* ---------------------------------------------------------
+ * Copyright (c) 2025 PPNCKH Contributors
+ * Licensed under the MIT License.
+ * --------------------------------------------------------- */
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');

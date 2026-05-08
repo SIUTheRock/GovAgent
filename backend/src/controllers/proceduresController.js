@@ -1,4 +1,29 @@
+/* ---------------------------------------------------------
+ * Copyright (c) 2025 PPNCKH Contributors
+ * Licensed under the MIT License.
+ * --------------------------------------------------------- */
 const pool = require('../db/postgres');
+const axios = require('axios');
+
+// Tích hợp OpenStreetMap lấy tọa độ (FiWARE IoT/Location)
+async function getCoordinatesFromOSM(agencyName) {
+  try {
+    if (!agencyName) return { lat: 10.7769, lon: 106.7009 };
+    const query = encodeURIComponent(agencyName + ', Việt Nam');
+    const response = await axios.get(`https://nominatim.openstreetmap.org/search?q=${query}&format=json&limit=1`, {
+      headers: { 'User-Agent': 'PPNCKH-SmartCityPlatform-OLP2025' }
+    });
+    if (response.data && response.data.length > 0) {
+      return {
+        lat: parseFloat(response.data[0].lat),
+        lon: parseFloat(response.data[0].lon)
+      };
+    }
+  } catch (error) {
+    console.error("OSM Error:", error.message);
+  }
+  return { lat: 10.7769, lon: 106.7009 }; // Mặc định HCM
+}
 
 // GET /api/procedures?page=1&limit=12&category=&level=
 async function getProcedures(req, res) {
@@ -53,7 +78,7 @@ async function getProcedures(req, res) {
     });
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: 'Lỗi khi lấy danh sách thủ tục.' });
+    res.status(500).json({ error: 'Lỗi khi lấy danh sách thủ tục' });
   }
 }
 
@@ -61,6 +86,7 @@ async function getProcedures(req, res) {
 async function getProcedureById(req, res) {
   try {
     const id = parseInt(req.params.id);
+    const format = req.query.format;
     if (!id || id < 1) return res.status(400).json({ error: 'ID không hợp lệ.' });
 
     const result = await pool.query(
@@ -74,15 +100,75 @@ async function getProcedureById(req, res) {
     if (result.rows.length === 0) {
       return res.status(404).json({ error: 'Không tìm thấy thủ tục.' });
     }
+    const procedure = result.rows[0];
 
     // Tăng view count
     pool.query('UPDATE procedures SET view_count = view_count + 1 WHERE id = $1', [id]);
 
-    res.json({ data: result.rows[0] });
+    // Trả về định dạng NGSI-LD (ETSI / FIWARE Smart Data Models)
+    if (format === 'ngsi-ld') {
+      const geo = await getCoordinatesFromOSM(procedure.implementing_agency);
+      const ngsiLd = {
+        "@context": [
+          "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+          "https://smartdatamodels.org/context.jsonld"
+        ],
+        "id": `urn:ngsi-ld:PublicService:${procedure.code}`,
+        "type": "PublicService",
+        "name": { "type": "Property", "value": procedure.name },
+        "description": { "type": "Property", "value": procedure.description || `Thủ tục ${procedure.name}` },
+        "serviceProvider": { "type": "Property", "value": procedure.implementing_agency || "Cơ quan hành chính nhà nước" },
+        "location": {
+          "type": "GeoProperty",
+          "value": { "type": "Point", "coordinates": [geo.lon, geo.lat] }
+        }
+      };
+      res.setHeader('Content-Type', 'application/ld+json');
+      return res.json(ngsiLd);
+    }
+
+    res.json({ data: procedure });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'Lỗi khi lấy chi tiết thủ tục.' });
   }
 }
 
-module.exports = { getProcedures, getProcedureById };
+// GET /api/procedures/:id/json-ld (JSON-LD schema.org cơ bản)
+async function getProcedureJsonLd(req, res) {
+  try {
+    const id = parseInt(req.params.id);
+    if (!id || id < 1) return res.status(400).json({ error: 'ID không hợp lệ.' });
+
+    const result = await pool.query(
+      `SELECT p.*, c.name AS category_name
+       FROM procedures p
+       LEFT JOIN categories c ON p.category_id = c.id
+       WHERE p.id = $1 AND p.is_active = TRUE`,
+      [id]
+    );
+
+    if (result.rows.length === 0) return res.status(404).json({ error: 'Không tìm thấy thủ tục.' });
+    const procedure = result.rows[0];
+    
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "PublicService",
+      "identifier": procedure.code,
+      "name": procedure.name,
+      "provider": {
+        "@type": "GovernmentOrganization",
+        "name": procedure.implementing_agency || "Cơ quan hành chính nhà nước"
+      },
+      "serviceType": procedure.category_name
+    };
+
+    res.setHeader('Content-Type', 'application/ld+json');
+    res.json(jsonLd);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Lỗi khi lấy dữ liệu JSON-LD.' });
+  }
+}
+
+module.exports = { getProcedures, getProcedureById, getProcedureJsonLd };
