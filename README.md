@@ -1,4 +1,4 @@
-# PPNCKH - Hệ thống Tra cứu Dịch vụ công bằng AI và Dữ liệu Mở (OLP 2025)
+E:\ngrok\ngrok.exe http --domain=retired-king-plunder.ngrok-free.dev 5173# PPNCKH - Hệ thống Tra cứu Dịch vụ công bằng AI và Dữ liệu Mở (OLP 2025)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-green.svg)](CHANGELOG.md)
@@ -10,8 +10,8 @@ Dự án giải quyết bài toán thực thực tế: **Minh bạch hóa và h�
 
 ## � Trải nghiệm Live Demo (Bản dùng thử cho Giám Khảo)
 
-Hệ thống hiện đang được triển khai qua kết nối Public (Ngrok). Bạn hoàn toàn có thể test trực tiếp tính năng Hệ thống Trợ lý Dịch vụ Công tại liên kết dưới đây mà không cần cài đặt:
-👉 **[Nhấn vào đây để xem Live Demo OLP 2025](https://retired-king-plunder.ngrok-free.dev/)**
+Hệ thống hiện đang được triển khai qua kết nối Public (VS Code Port Forwarding). Bạn hoàn toàn có thể test trực tiếp tính năng Hệ thống Trợ lý Dịch vụ Công tại liên kết dưới đây mà không cần cài đặt:
+👉 **[Nhấn vào đây để xem Live Demo OLP 2025](https://03nmlrvf-5173.asse.devtunnels.ms/)**
 *(Lưu ý: Liên kết mang tính chất demo và có thể gián đoạn nếu máy chủ local bảo trì. Nếu lỗi, vui lòng xem mục Cài đặt nhanh ở bên dưới).*
 
 ## �🌟 Tính Năng Nổi Bật & Chuẩn Công Nghệ
