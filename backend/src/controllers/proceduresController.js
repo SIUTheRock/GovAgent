@@ -25,6 +25,19 @@ async function getCoordinatesFromOSM(agencyName) {
   return { lat: 10.7769, lon: 106.7009 }; // Mặc định HCM
 }
 
+// Tích hợp Lấy dữ liệu Thời tiết & IoT (Chuẩn SOSA/SSN)
+async function getWeatherObservation(lat, lon) {
+  try {
+    const response = await axios.get(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`);
+    if (response.data && response.data.current_weather) {
+      return response.data.current_weather;
+    }
+  } catch (error) {
+    console.error("Weather API Error:", error.message);
+  }
+  return null;
+}
+
 // GET /api/procedures?page=1&limit=12&category=&level=
 async function getProcedures(req, res) {
   try {
@@ -108,10 +121,13 @@ async function getProcedureById(req, res) {
     // Trả về định dạng NGSI-LD (ETSI / FIWARE Smart Data Models)
     if (format === 'ngsi-ld') {
       const geo = await getCoordinatesFromOSM(procedure.implementing_agency);
+      const weather = await getWeatherObservation(geo.lat, geo.lon);
+      
       const ngsiLd = {
         "@context": [
           "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-          "https://smartdatamodels.org/context.jsonld"
+          "https://smartdatamodels.org/context.jsonld",
+          { "sosa": "http://www.w3.org/ns/sosa/" }
         ],
         "id": `urn:ngsi-ld:PublicService:${procedure.code}`,
         "type": "PublicService",
@@ -123,6 +139,20 @@ async function getProcedureById(req, res) {
           "value": { "type": "Point", "coordinates": [geo.lon, geo.lat] }
         }
       };
+
+      // Tích hợp dữ liệu mức độ thời tiết (IoT/Sensor) qua SOSA Ontology nếu có
+      if (weather) {
+        ngsiLd["sosa:Observation"] = {
+          "type": "Property",
+          "value": {
+            "temperature": weather.temperature,
+            "windspeed": weather.windspeed,
+            "observationTime": weather.time
+          },
+          "observedAt": new Date().toISOString()
+        };
+      }
+
       res.setHeader('Content-Type', 'application/ld+json');
       return res.json(ngsiLd);
     }

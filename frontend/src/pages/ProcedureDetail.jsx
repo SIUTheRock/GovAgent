@@ -184,6 +184,15 @@ export default function ProcedureDetail() {
             🏛️ Xem trên Cổng Dịch vụ công Quốc gia
           </a>
         )}
+        <a
+          href={`/api/procedures/${procedure.id}?format=ngsi-ld`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 bg-purple-600 text-white px-4 py-2.5 rounded-xl text-sm font-medium hover:bg-purple-700 transition-colors"
+          title="Xuất dữ liệu theo chuẩn OLP25: Linked Open Data (JSON-LD) và FIWARE NGSI-LD Smart City kết hợp IoT SOSA/SSN Ontology"
+        >
+          🌐 Xuất LOD (NGSI-LD / IoT)
+        </a>
         <button
           onClick={() => navigate(-1)}
           className="flex items-center gap-2 border border-gray-300 text-gray-700 px-4 py-2.5 rounded-xl text-sm font-medium hover:bg-gray-50 transition-colors"
