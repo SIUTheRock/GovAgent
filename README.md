@@ -8,7 +8,13 @@
 
 Dự án giải quyết bài toán thực thực tế: **Minh bạch hóa và hỗ trợ người dân tự động hóa việc hỏi đáp thủ tục hành chính, đồng thời tích hợp chặt chẽ việc truy xuất dữ liệu theo chuẩn Semantic Web và vạn vật kết nối (IoT).**
 
-## 🌟 Tính Năng Nổi Bật & Chuẩn Công Nghệ
+## � Trải nghiệm Live Demo (Bản dùng thử cho Giám Khảo)
+
+Hệ thống hiện đang được triển khai qua kết nối Public (Ngrok). Bạn hoàn toàn có thể test trực tiếp tính năng Hệ thống Trợ lý Dịch vụ Công tại liên kết dưới đây mà không cần cài đặt:
+👉 **[Nhấn vào đây để xem Live Demo OLP 2025](https://retired-king-plunder.ngrok-free.dev/)**
+*(Lưu ý: Liên kết mang tính chất demo và có thể gián đoạn nếu máy chủ local bảo trì. Nếu lỗi, vui lòng xem mục Cài đặt nhanh ở bên dưới).*
+
+## �🌟 Tính Năng Nổi Bật & Chuẩn Công Nghệ
 
 1. **Trợ lý Ảo AI (RAG System)** 
    Sử dụng RAG (Retrieval-Augmented Generation) kết hợp ChromaDB và Gemini/LLM để tư vấn rành mạch các bước làm hồ sơ cho người dân.
