@@ -14,15 +14,16 @@ const searchRouter = require('./routes/search');
 const chatRouter = require('./routes/chat');
 const categoriesRouter = require('./routes/categories');
 const adminRouter = require('./routes/admin');
+const authRouter = require('./routes/auth');
 
 const app = express();
 
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: process.env.FRONTEND_URL || 'http://localhost:3001',
   methods: ['GET', 'POST'],
-  allowedHeaders: ['Content-Type'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
 // Rate limiting
@@ -40,10 +41,18 @@ const chatLimiter = rateLimit({
   message: { error: 'Quá nhiều yêu cầu chat, vui lòng thử lại sau 1 phút.' },
 });
 
+const loginLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 phút
+  max: 5,
+  message: { error: 'Quá nhiều lần đăng nhập thất bại, vui lòng thử lại sau 15 phút.' },
+  skipSuccessfulRequests: true,
+});
+
 app.use(morgan('dev'));
 app.use(express.json({ limit: '10kb' }));
 
-// Routes
+// Tách route theo đúng ba trục demo chính: dữ liệu thủ tục, chat AI và quản trị.
+app.use('/api/auth', loginLimiter, authRouter);
 app.use('/api/procedures', proceduresRouter);
 app.use('/api/search', searchRouter);
 app.use('/api/chat', chatLimiter, chatRouter);

@@ -61,6 +61,7 @@ async function getProcedures(req, res) {
 
     const where = conditions.length ? `WHERE ${conditions.join(' AND ')}` : '';
 
+    // Tách query đếm và query dữ liệu để frontend phân trang ổn định trong lúc demo.
     const countResult = await pool.query(
       `SELECT COUNT(*) FROM procedures p ${where}`,
       params
@@ -115,10 +116,10 @@ async function getProcedureById(req, res) {
     }
     const procedure = result.rows[0];
 
-    // Tăng view count
+    // Tăng view count bất đồng bộ để không làm chậm trang chi tiết.
     pool.query('UPDATE procedures SET view_count = view_count + 1 WHERE id = $1', [id]);
 
-    // Trả về định dạng NGSI-LD (ETSI / FIWARE Smart Data Models)
+    // format=ngsi-ld là nhánh demo Open Data: trả thủ tục dưới chuẩn Linked Data.
     if (format === 'ngsi-ld') {
       const geo = await getCoordinatesFromOSM(procedure.implementing_agency);
       const weather = await getWeatherObservation(geo.lat, geo.lon);
@@ -140,7 +141,7 @@ async function getProcedureById(req, res) {
         }
       };
 
-      // Tích hợp dữ liệu mức độ thời tiết (IoT/Sensor) qua SOSA Ontology nếu có
+      // Làm giàu response bằng quan sát thời tiết để minh hoạ lớp dữ liệu IoT/SOSA.
       if (weather) {
         ngsiLd["sosa:Observation"] = {
           "type": "Property",

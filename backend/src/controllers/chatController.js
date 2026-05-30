@@ -1,7 +1,7 @@
 const axios = require('axios');
 const pool = require('../db/postgres');
 
-const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://localhost:8000';
+const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://localhost:8001';
 
 // POST /api/chat
 // Body: { question: string, session_id?: string, history?: array }
@@ -20,7 +20,7 @@ async function chat(req, res) {
 
     const startTime = Date.now();
 
-    // Gọi AI service (kèm history)
+    // Backend điều phối câu hỏi sang AI service rồi ghép thêm metadata thủ tục từ PostgreSQL.
     const aiResponse = await axios.post(
       `${AI_SERVICE_URL}/chat`,
       { question: trimmedQ, history: Array.isArray(history) ? history.slice(-8) : [] },
@@ -30,7 +30,7 @@ async function chat(req, res) {
     const { answer, procedure_ids = [], sources = [] } = aiResponse.data;
     const responseTimeMs = Date.now() - startTime;
 
-    // Lấy thông tin thủ tục được đề xuất
+    // Chỉ nạp top kết quả cần hiển thị để response chat vẫn gọn và nhanh khi demo.
     let suggestedProcedures = [];
     if (procedure_ids.length > 0) {
       const ids = procedure_ids.slice(0, 5).map(Number).filter(Boolean);
@@ -45,7 +45,7 @@ async function chat(req, res) {
       }
     }
 
-    // Ghi log và lấy log_id để dùng cho feedback
+    // Lưu log sau khi có câu trả lời để phần feedback/admin có thể dùng lại log_id.
     let logId = null;
     try {
       const logResult = await pool.query(

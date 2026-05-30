@@ -35,7 +35,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5000", "http://localhost:3000"],
+    allow_origins=["http://localhost:5000", "http://localhost:3001"],
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
 )
@@ -68,6 +68,8 @@ def health():
 @app.post("/chat")
 async def chat(req: ChatRequest):
     try:
+        # AI service chỉ trả lời và trả về procedure_ids liên quan.
+        # Backend sẽ dùng các id này để nối thêm dữ liệu trình bày cho frontend.
         result = await answer_question(req.question, req.history)
         return result
     except Exception as e:
@@ -88,4 +90,4 @@ async def index(req: IndexRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8001, reload=True)

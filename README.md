@@ -1,4 +1,4 @@
-E:\ngrok\ngrok.exe http --domain=retired-king-plunder.ngrok-free.dev 5173# PPNCKH - Hệ thống Tra cứu Dịch vụ công bằng AI và Dữ liệu Mở (OLP 2025)
+# PPNCKH - Hệ thống Tra cứu Dịch vụ công bằng AI và Dữ liệu Mở (OLP 2025)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-green.svg)](CHANGELOG.md)
@@ -8,13 +8,13 @@ E:\ngrok\ngrok.exe http --domain=retired-king-plunder.ngrok-free.dev 5173# PPNCK
 
 Dự án giải quyết bài toán thực thực tế: **Minh bạch hóa và hỗ trợ người dân tự động hóa việc hỏi đáp thủ tục hành chính, đồng thời tích hợp chặt chẽ việc truy xuất dữ liệu theo chuẩn Semantic Web và vạn vật kết nối (IoT).**
 
-## � Trải nghiệm Live Demo (Bản dùng thử cho Giám Khảo)
+## Trải nghiệm Live Demo (Bản dùng thử cho Giám Khảo)
 
-Hệ thống hiện đang được triển khai qua kết nối Public (VS Code Port Forwarding). Bạn hoàn toàn có thể test trực tiếp tính năng Hệ thống Trợ lý Dịch vụ Công tại liên kết dưới đây mà không cần cài đặt:
-👉 **[Nhấn vào đây để xem Live Demo OLP 2025](https://03nmlrvf-5173.asse.devtunnels.ms/)**
+Hệ thống hiện đang được triển khai qua kết nối Public (Ngrok). Bạn hoàn toàn có thể test trực tiếp tính năng Hệ thống Trợ lý Dịch vụ Công tại liên kết dưới đây mà không cần cài đặt:
+👉 **[Nhấn vào đây để xem Live Demo OLP 2025](https://retired-king-plunder.ngrok-free.dev/)**
 *(Lưu ý: Liên kết mang tính chất demo và có thể gián đoạn nếu máy chủ local bảo trì. Nếu lỗi, vui lòng xem mục Cài đặt nhanh ở bên dưới).*
 
-## �🌟 Tính Năng Nổi Bật & Chuẩn Công Nghệ
+## 🌟 Tính Năng Nổi Bật & Chuẩn Công Nghệ
 
 1. **Trợ lý Ảo AI (RAG System)** 
    Sử dụng RAG (Retrieval-Augmented Generation) kết hợp ChromaDB và Gemini/LLM để tư vấn rành mạch các bước làm hồ sơ cho người dân.
@@ -73,32 +73,230 @@ PPNCKH/
 └── Makefile           # Script biên dịch tự động
 ```
 
-## 🚀 Cài Đặt và Khởi Động Nhanh (Dành cho Giám khảo)
+## 🚀 Cài Từ Đầu Đến Chạy Được
 
-Dự án được tối ưu để chỉ mất dưới 3 phút thiết lập. Môi trường độc lập hoàn toàn không yêu cầu cấu hình thủ công rối rắm.
+Repo hiện hỗ trợ 2 cách chạy:
 
-### Yêu cầu
+- `Docker`: nhanh nhất nếu bạn muốn dựng toàn bộ stack trong container.
+- `Local Windows`: phù hợp khi cần code, debug và demo trực tiếp trên máy.
+
+Không nên trộn hai cách trong cùng một lần cài đặt, vì port và biến môi trường giữa `docker-compose` và môi trường local khác nhau.
+
+### 1. Yêu cầu hệ thống
+
+#### Chạy bằng Docker
+- Docker Desktop
+- Docker Compose
+
+#### Chạy local trên Windows
 - Node.js 20+
-- Python 3.12+ (Hoặc Conda Environment)
+- npm 10+
+- Python 3.12+
 - PostgreSQL 16
-- *(Khuyến nghị)* Docker & Docker Compose
+- `psql` có trong `PATH`
 
-### Cài đặt tự động một chạm (Khuyên dùng)
-Cấu trúc `Makefile` sẽ tự động phân phối tệp biến môi trường `.env` và kích hoạt hệ thống:
-```bash
-# Cài đặt môi trường và các thư viện cần thiết
-make setup
+### 2. Cấu trúc dịch vụ cần chạy
 
-# Khởi chạy toàn bộ các dịch vụ Backend, Frontend, AI
-make start
-```
+#### Local development
+- Frontend: `http://localhost:3001`
+- Backend: `http://localhost:5000`
+- AI Service: `http://localhost:8001`
+- PostgreSQL: `localhost:4321` nếu bạn dùng cấu hình hiện tại trong `backend/.env`
 
-### Cài đặt thủ công qua Script (Trên Windows)
-Nếu bạn chấm thi trên hệ điều hành Windows:
+#### Docker compose
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:5000`
+- AI Service: `http://localhost:8000`
+- PostgreSQL: `localhost:5432`
+
+### 3. Cài đặt bằng Docker
+
+Nếu bạn chỉ cần chạy nhanh toàn bộ hệ thống:
+
 ```powershell
-# Chạy file để cài đặt tự động dependencies bằng PowerShell
-.\start-dev.ps1
+docker compose up -d --build
 ```
+
+Sau khi container chạy xong, mở:
+
+- Frontend: `http://localhost:3000`
+- Backend health: `http://localhost:5000/health`
+- AI health: `http://localhost:8000/health`
+
+Để dừng hệ thống:
+
+```powershell
+docker compose down
+```
+
+### 4. Cài đặt local trên Windows
+
+Đây là cách phù hợp nhất để sửa code và demo trực tiếp.
+
+#### Bước 1: Cài dependencies Node.js
+
+```powershell
+cd backend
+npm install
+
+cd ..\frontend
+npm install
+
+cd ..
+```
+
+#### Bước 2: Tạo môi trường Python cho AI service
+
+```powershell
+cd ai-service
+py -m venv .venv
+.\.venv\Scripts\pip install -r requirements.txt
+cd ..
+```
+
+#### Bước 3: Tạo file môi trường
+
+```powershell
+Copy-Item backend\.env.example backend\.env
+Copy-Item ai-service\.env.example ai-service\.env
+```
+
+Sau đó chỉnh lại các giá trị quan trọng:
+
+- `backend/.env`
+   - `DATABASE_URL=postgresql://postgres:<mat_khau>@localhost:4321/hanhchinh_db`
+   - `AI_SERVICE_URL=http://localhost:8001`
+   - `FRONTEND_URL=http://localhost:3001`
+- `ai-service/.env`
+   - `GEMINI_API_KEY=<api_key_cua_ban>`
+   - `DATABASE_URL=postgresql://postgres:<mat_khau>@localhost:4321/hanhchinh_db`
+
+Lưu ý: file `ai-service/.env.example` đang để mặc định PostgreSQL ở cổng `5432`, nên nếu bạn chạy local theo cấu hình hiện tại của repo thì cần sửa lại thành `4321`.
+
+#### Bước 4: Tạo database và schema
+
+```powershell
+psql -h localhost -p 4321 -U postgres -c "CREATE DATABASE hanhchinh_db;"
+psql -h localhost -p 4321 -U postgres -d hanhchinh_db -f database\init.sql
+```
+
+Nếu database đã tồn tại, chỉ cần chạy lệnh import schema thứ hai.
+
+#### Bước 5: Nạp dữ liệu cho hệ thống
+
+Nếu bạn đã có dữ liệu trong PostgreSQL thì bỏ qua bước crawl. Nếu cần nạp dữ liệu và index lại cho AI:
+
+```powershell
+cd crawler
+py process_data.py
+
+cd ..\ai-service
+.\.venv\Scripts\activate
+py index_data.py
+
+cd ..
+```
+
+#### Bước 6: Chạy 3 service
+
+Mở 3 terminal riêng:
+
+```powershell
+# Terminal 1
+cd backend
+npm run dev
+```
+
+```powershell
+# Terminal 2
+cd ai-service
+.\.venv\Scripts\activate
+uvicorn main:app --reload --port 8001
+```
+
+```powershell
+# Terminal 3
+cd frontend
+npm run dev
+```
+
+Mở ứng dụng tại `http://localhost:3001`.
+
+### 5. Kiểm tra sau cài đặt
+
+Khi mọi thứ chạy đúng, các endpoint sau phải phản hồi được:
+
+```powershell
+curl http://localhost:5000/health
+curl http://localhost:8001/health
+```
+
+Trong trình duyệt:
+
+- `http://localhost:3001` với local development
+- `http://localhost:3000` với docker
+
+### 6. Script hỗ trợ sẵn trong repo
+
+- `start-dev.ps1`: hướng dẫn dựng local trên Windows
+- `database/init.sql`: tạo schema PostgreSQL
+- `docker-compose.yml`: dựng full stack bằng Docker
+- `Makefile`: hỗ trợ setup/start cho môi trường Unix-like
+
+### 7. Lỗi thường gặp
+
+- `ECONNREFUSED` từ backend sang AI service: kiểm tra `AI_SERVICE_URL` trong `backend/.env` có đúng `http://localhost:8001` hay không.
+- Frontend gọi API lỗi CORS: kiểm tra `FRONTEND_URL=http://localhost:3001` trong `backend/.env`.
+- `index_data.py` không kết nối được PostgreSQL: kiểm tra `DATABASE_URL` trong `ai-service/.env` đã đổi sang đúng cổng local hay chưa.
+- Chat không hoạt động dù AI service chạy: kiểm tra `GEMINI_API_KEY` trong `ai-service/.env`.
+
+## 🎬 Pipeline Demo Sản Phẩm
+
+Pipeline này phù hợp cho một buổi demo 5-7 phút, đi qua đủ ba giá trị của hệ thống: tra cứu thủ tục, trợ lý AI và xuất dữ liệu mở liên kết.
+
+### Chuẩn bị trước khi demo
+- PostgreSQL đang chạy và đã nạp schema từ `database/init.sql`.
+- Backend chạy tại `http://localhost:5000`.
+- AI Service chạy tại `http://localhost:8001`.
+- Frontend chạy tại `http://localhost:3001`.
+- Nếu cần public link từ máy local, dùng ngrok trỏ vào cổng `3001`.
+
+### Khởi động dịch vụ
+```powershell
+# Terminal 1
+cd backend
+npm run dev
+
+# Terminal 2
+cd ai-service
+.\.venv\Scripts\activate
+uvicorn main:app --reload --port 8001
+
+# Terminal 3
+cd frontend
+npm run dev
+```
+
+Mở ứng dụng tại `http://localhost:3001`.
+
+### Kịch bản demo đề xuất
+1. Mở trang danh sách thủ tục để cho thấy dữ liệu đã được crawl và chuẩn hóa.
+2. Lọc hoặc chọn một thủ tục cụ thể để trình bày nghiệp vụ: cơ quan xử lý, thời gian, lệ phí, hồ sơ.
+3. Bấm `Hỏi thêm trợ lý AI` để chuyển sang luồng chat có sẵn ngữ cảnh từ thủ tục đang xem.
+4. Đặt câu hỏi tự nhiên như `Tôi cần chuẩn bị giấy tờ gì và nộp ở đâu?` để minh hoạ RAG.
+5. Chỉ ra các thủ tục gợi ý trong câu trả lời để giải thích rằng AI đang bám trên dữ liệu thủ tục thực, không trả lời rời hệ thống.
+6. Quay lại trang chi tiết và bấm `Xuất LOD (NGSI-LD / IoT)` để mở JSON-LD/NGSI-LD.
+7. Chốt phần trình bày bằng việc giải thích response đã được làm giàu bằng vị trí cơ quan và dữ liệu quan sát thời tiết theo SOSA/SSN.
+
+### Điểm nhấn nên nói khi thuyết trình
+- `Frontend` là lớp tương tác cho người dân và giám khảo.
+- `Backend` điều phối API, tra cứu PostgreSQL và ghép kết quả AI với metadata thủ tục.
+- `AI Service` xử lý RAG và trả về câu trả lời cùng `procedure_ids` liên quan.
+- `LOD/NGSI-LD` là lớp xuất bản để bên thứ ba tái sử dụng dữ liệu mở.
+
+### Phương án dự phòng
+- Nếu AI service gặp sự cố, vẫn có thể demo đầy đủ phần tra cứu thủ tục và export LOD.
+- Nếu public link không ổn định, chuyển sang demo local tại `http://localhost:3001`.
 
 ## 🔌 Tích Hợp API Chức Năng Cốt Lõi
 | Method | Endpoint | Giá trị khai thác (Open Data) |

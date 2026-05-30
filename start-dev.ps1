@@ -49,14 +49,20 @@ Write-Host "Terminal 1 - Backend:" -ForegroundColor Green
 Write-Host "  cd backend; npm run dev" -ForegroundColor Gray
 Write-Host ""
 Write-Host "Terminal 2 - AI Service:" -ForegroundColor Green
-Write-Host "  cd ai-service; .\.venv\Scripts\activate; uvicorn main:app --reload --port 8000" -ForegroundColor Gray
+Write-Host "  cd ai-service; .\.venv\Scripts\activate; uvicorn main:app --reload --port 8001" -ForegroundColor Gray
 Write-Host ""
 Write-Host "Terminal 3 - Frontend:" -ForegroundColor Green
 Write-Host "  cd frontend; npm run dev" -ForegroundColor Gray
 Write-Host ""
-Write-Host "Sau đó mở: http://localhost:3000" -ForegroundColor Cyan
+Write-Host "Sau đó mở: http://localhost:3001" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "=== Import dữ liệu mẫu (lần đầu) ===" -ForegroundColor Cyan
 Write-Host "1. Tạo dữ liệu mẫu:  cd crawler; py crawler.py --mode sample" -ForegroundColor Gray
 Write-Host "2. Nhập vào DB:       cd crawler; py process_data.py" -ForegroundColor Gray
 Write-Host "3. Index vào ChromaDB: cd ai-service; .\.venv\Scripts\activate; py index_data.py" -ForegroundColor Gray
+Write-Host ""
+Write-Host "=== Pipeline demo gợi ý ===" -ForegroundColor Cyan
+Write-Host "1. Mở trang danh sách thủ tục để giới thiệu dữ liệu thật và bộ lọc." -ForegroundColor Gray
+Write-Host "2. Mở chi tiết một thủ tục để trình bày hồ sơ, thời gian và cơ quan xử lý." -ForegroundColor Gray
+Write-Host "3. Bấm 'Hỏi thêm trợ lý AI' để minh hoạ luồng RAG có ngữ cảnh." -ForegroundColor Gray
+Write-Host "4. Bấm 'Xuất LOD (NGSI-LD / IoT)' để chốt phần Open Data + Smart City." -ForegroundColor Gray
